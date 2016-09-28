@@ -1,0 +1,307 @@
+{
+  "entry": [
+    {
+      "address": [], 
+      "id": 0, 
+      "identifier": [], 
+      "name": "none of the above", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 101, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1447420906"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "uwmc"
+        }
+      ], 
+      "name": "UW Medicine (University of Washington)", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 102, 
+      "identifier": [], 
+      "name": "SCCA Urology Clinic", 
+      "partOf": {
+        "reference": "api/organization/101"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 103, 
+      "identifier": [], 
+      "name": "Urology Clinic at UWMC", 
+      "partOf": {
+        "reference": "api/organization/101"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 104, 
+      "identifier": [], 
+      "name": "Urology Clinic at Harborview", 
+      "partOf": {
+        "reference": "api/organization/101"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 201, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
+          "use": "usual", 
+          "value": "ucsf"
+        }, 
+        {
+          "assigner": null, 
+          "system": "http://hl7.org/fhir/sid/us-npi", 
+          "use": "official", 
+          "value": "1164512851"
+        }
+      ], 
+      "name": "UCSF Medical Center", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "card_html": "<p>When the button below is active, it's time for you to take the symptom questionnaire so the registry has an updated record of what kind of symptoms you're experiencing and how they impact you.</p>", 
+      "description": "Symptom Questionnaire", 
+      "link_label": "Take the symptom questionnaire", 
+      "name": "assessment_engine", 
+      "public_access": true, 
+      "resourceType": "Intervention", 
+      "status_text": ""
+    }, 
+    {
+      "function_details": {
+        "function": "update_link_url", 
+        "kwargs": [
+          {
+            "name": "intervention_name", 
+            "value": "assessment_engine"
+          }, 
+          {
+            "name": "link_url", 
+            "value": "https://eproms-demo.cirg.washington.edu/api/present-assessment/epic26"
+          }
+        ]
+      }, 
+      "id": 1003, 
+      "intervention_name": "assessment_engine", 
+      "name": "fix assessment_engine link_url", 
+      "resourceType": "AccessStrategy"
+    }, 
+    {
+      "card_html": "<p>Organization and support for the many details of life as a prostate cancer survivor</p>", 
+      "description": "Care Plan", 
+      "link_label": "Care Plan", 
+      "name": "care_plan", 
+      "public_access": false, 
+      "resourceType": "Intervention"
+    }, 
+    {
+      "card_html": "Community of Wellness", 
+      "description": "Community of Wellness", 
+      "name": "community_of_wellness", 
+      "public_access": false, 
+      "resourceType": "Intervention"
+    }, 
+    {
+      "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
+      "description": "Decision Support tool", 
+      "link_label": "Go to Decision Support", 
+      "name": "decision_support_p3p", 
+      "public_access": true, 
+      "resourceType": "Intervention"
+    }, 
+    {
+      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "function_details": {
+        "function": "combine_strategies", 
+        "kwargs": [
+          {
+            "name": "strategy_1", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_1_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "sexual_recovery"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_2", 
+            "value": "combine_strategies"
+          }, 
+          {
+            "name": "strategy_2_kwargs", 
+            "value": [
+              {
+                "name": "combinator", 
+                "value": "any"
+              }, 
+              {
+                "name": "strategy_1", 
+                "value": "not_in_clinic_list"
+              }, 
+              {
+                "name": "strategy_1_kwargs", 
+                "value": [
+                  {
+                    "name": "org_list", 
+                    "value": [
+                      "UCSF Medical Center"
+                    ]
+                  }
+                ]
+              }, 
+              {
+                "name": "strategy_2", 
+                "value": "limit_by_clinic_list"
+              }, 
+              {
+                "name": "strategy_2_kwargs", 
+                "value": [
+                  {
+                    "name": "org_list", 
+                    "value": [
+                      "UW Medicine (University of Washington)", 
+                      "UCSF Medical Center"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_3", 
+            "value": "observation_check"
+          }, 
+          {
+            "name": "strategy_3_kwargs", 
+            "value": [
+              {
+                "name": "display", 
+                "value": "treatment begun"
+              }, 
+              {
+                "name": "boolean_value", 
+                "value": "false"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_4", 
+            "value": "observation_check"
+          }, 
+          {
+            "name": "strategy_4_kwargs", 
+            "value": [
+              {
+                "name": "display", 
+                "value": "PCa localized diagnosis"
+              }, 
+              {
+                "name": "boolean_value", 
+                "value": "true"
+              }
+            ]
+          }
+        ]
+      }, 
+      "id": 1002, 
+      "intervention_name": "decision_support_p3p", 
+      "name": "P3P Access Conditions", 
+      "resourceType": "AccessStrategy"
+    }, 
+    {
+      "card_html": "Decision Support WiserCare", 
+      "description": "Decision Support WiserCare", 
+      "name": "decision_support_wisercare", 
+      "public_access": false, 
+      "resourceType": "Intervention"
+    }, 
+    {
+      "description": "OTHER: not yet officially supported", 
+      "link_label": "", 
+      "name": "default", 
+      "public_access": false, 
+      "resourceType": "Intervention", 
+      "status_text": ""
+    }, 
+    {
+      "card_html": "<p>Learn about symptoms that are common in men with prostate cancer, and about ways to manage and improve these symptoms.</p>", 
+      "description": "Symptom Tracker tool", 
+      "link_label": "Go to Symptom Tracker", 
+      "name": "self_management", 
+      "public_access": true, 
+      "resourceType": "Intervention", 
+      "status_text": ""
+    }, 
+    {
+      "description": "Confirm user hasn't been given access to Sexual Recovery", 
+      "function_details": {
+        "function": "allow_if_not_in_intervention", 
+        "kwargs": [
+          {
+            "name": "intervention_name", 
+            "value": "sexual_recovery"
+          }
+        ]
+      }, 
+      "id": 1001, 
+      "intervention_name": "self_management", 
+      "name": "Allow Self Management if not in Sexual Recovery", 
+      "resourceType": "AccessStrategy"
+    }, 
+    {
+      "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
+      "description": "Sexual Recovery", 
+      "link_label": "Sexual Recovery", 
+      "name": "sexual_recovery", 
+      "public_access": false, 
+      "resourceType": "Intervention", 
+      "status_text": ""
+    }, 
+    {
+      "card_html": "Social Support Network", 
+      "description": "Social Support Network", 
+      "name": "social_support", 
+      "public_access": false, 
+      "resourceType": "Intervention"
+    }
+  ], 
+  "id": "SitePersistence v0.1", 
+  "meta": {
+    "fhir_comments": [
+      "export of dynamic site data from host", 
+      "eproms-demo.cirg.washington.edu"
+    ], 
+    "lastUpdated": "2016-09-28T03:10:00.160469Z"
+  }, 
+  "resourceType": "Bundle", 
+  "type": "document"
+}
