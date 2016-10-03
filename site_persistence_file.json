@@ -86,6 +86,7 @@
     {
       "card_html": "<p>When the button below is active, it's time for you to take the symptom questionnaire so the registry has an updated record of what kind of symptoms you're experiencing and how they impact you.</p>", 
       "description": "Symptom Questionnaire", 
+      "display_rank": 1,
       "link_label": "Take the symptom questionnaire", 
       "name": "assessment_engine", 
       "public_access": true, 
@@ -129,6 +130,7 @@
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
       "description": "Decision Support tool", 
+      "display_rank": 3,
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
       "public_access": true, 
@@ -255,6 +257,7 @@
     {
       "card_html": "<p>Learn about symptoms that are common in men with prostate cancer, and about ways to manage and improve these symptoms.</p>", 
       "description": "Symptom Tracker tool", 
+      "display_rank": 2,
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
       "public_access": true, 
