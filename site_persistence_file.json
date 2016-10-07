@@ -86,7 +86,7 @@
     {
       "card_html": "<p>When the button below is active, it's time for you to take the symptom questionnaire so the registry has an updated record of what kind of symptoms you're experiencing and how they impact you.</p>", 
       "description": "Symptom Questionnaire", 
-      "display_rank": 1,
+      "display_rank": 1, 
       "link_label": "Take the symptom questionnaire", 
       "name": "assessment_engine", 
       "public_access": true, 
@@ -107,7 +107,7 @@
           }
         ]
       }, 
-      "id": 1003, 
+      "id": 2003, 
       "intervention_name": "assessment_engine", 
       "name": "fix assessment_engine link_url", 
       "resourceType": "AccessStrategy"
@@ -130,14 +130,14 @@
     {
       "card_html": " <p>Explore your values, your preferences, and the current medical knowledge to help you discuss your treatment options with your doctors.</p>", 
       "description": "Decision Support tool", 
-      "display_rank": 3,
+      "display_rank": 3, 
       "link_label": "Go to Decision Support", 
       "name": "decision_support_p3p", 
-      "public_access": true, 
+      "public_access": false, 
       "resourceType": "Intervention"
     }, 
     {
-      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user has PCaLocalized)]", 
+      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user does NOT have PCaMETASTASIZE)] AND [startegy_5: (user does NOT have roll WRITE_ONLY)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -231,10 +231,25 @@
                 "value": "true"
               }
             ]
+          }, 
+          {
+            "name": "strategy_5", 
+            "value": "not_in_role_list"
+          }, 
+          {
+            "name": "strategy_5_kwargs", 
+            "value": [
+              {
+                "name": "role_list", 
+                "value": [
+                  "write_only"
+                ]
+              }
+            ]
           }
         ]
       }, 
-      "id": 1002, 
+      "id": 2000, 
       "intervention_name": "decision_support_p3p", 
       "name": "P3P Access Conditions", 
       "resourceType": "AccessStrategy"
@@ -257,27 +272,50 @@
     {
       "card_html": "<p>Learn about symptoms that are common in men with prostate cancer, and about ways to manage and improve these symptoms.</p>", 
       "description": "Symptom Tracker tool", 
-      "display_rank": 2,
+      "display_rank": 2, 
       "link_label": "Go to Symptom Tracker", 
       "name": "self_management", 
-      "public_access": true, 
+      "public_access": false, 
       "resourceType": "Intervention", 
       "status_text": ""
     }, 
     {
-      "description": "Confirm user hasn't been given access to Sexual Recovery", 
       "function_details": {
-        "function": "allow_if_not_in_intervention", 
+        "function": "combine_strategies", 
         "kwargs": [
           {
-            "name": "intervention_name", 
-            "value": "sexual_recovery"
+            "name": "strategy_1", 
+            "value": "allow_if_not_in_intervention"
+          }, 
+          {
+            "name": "strategy_1_kwargs", 
+            "value": [
+              {
+                "name": "intervention_name", 
+                "value": "sexual_recovery"
+              }
+            ]
+          }, 
+          {
+            "name": "strategy_2", 
+            "value": "not_in_role_list"
+          }, 
+          {
+            "name": "strategy_2_kwargs", 
+            "value": [
+              {
+                "name": "role_list", 
+                "value": [
+                  "write_only"
+                ]
+              }
+            ]
           }
         ]
       }, 
-      "id": 1001, 
+      "id": 2001, 
       "intervention_name": "self_management", 
-      "name": "Allow Self Management if not in Sexual Recovery", 
+      "name": "SELF_MANAGEMENT if not SR and not in WRITE_ONLY", 
       "resourceType": "AccessStrategy"
     }, 
     {
@@ -303,7 +341,7 @@
       "export of dynamic site data from host", 
       "eproms-demo.cirg.washington.edu"
     ], 
-    "lastUpdated": "2016-09-28T03:10:00.160469Z"
+    "lastUpdated": "2016-10-07T15:14:30.265226Z"
   }, 
   "resourceType": "Bundle", 
   "type": "document"
