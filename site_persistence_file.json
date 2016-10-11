@@ -333,6 +333,16 @@
       "name": "social_support", 
       "public_access": false, 
       "resourceType": "Intervention"
+    }, 
+    {
+      "custom_text": "Gathering Health Outcomes to Improve Prostate Cancer Care", 
+      "name": "landing sub-title", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "Welcome to TrueNTH", 
+      "name": "landing title", 
+      "resourceType": "AppText"
     }
   ], 
   "id": "SitePersistence v0.1", 
