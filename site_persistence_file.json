@@ -343,6 +343,41 @@
       "custom_text": "Welcome to TrueNTH", 
       "name": "landing title", 
       "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "Movember ePROMs", 
+      "name": "layout title", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "TrueNTH EPROMs Registration", 
+      "name": "portal registration", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "ePROMs Invitation", 
+      "name": "profileSendEmail option invite", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "ePROMs Reminder", 
+      "name": "profileSendEmail option reminder", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01//EN\"><html><body><p>Hello,</p><p>This message is an invitation to contribute data to the ePROMs system.</p><table><tr><td align=\"center\" width=\"300\" bgcolor=\"#0088cc\" style=\"background: #0088cc; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; color: #fff; font-weight: bold; text-decoration: none; padding: 6px; font-family: Helvetica, Arial, sans-serif; display: block;\"><a href=\"{0}\" style=\"color: #fff; text-decoration: none; display: block; font-size: 16px; width: 300px\">Visit ePROMs</a></td></tr></table><p>Click on the button above or this link to visit ePROMs and complete your questionnaire:<br /><a href=\"{0}\">{0}</a></p><p><em>&mdash; An automatic reminder from the ePROMs system</em></p></body></html>",
+      "name": "profileSendEmail email html", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "ePROMs Invitation", 
+      "name": "profile option invite", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "ePROMs Reminder", 
+      "name": "profile option reminder", 
+      "resourceType": "AppText"
     }
   ], 
   "id": "SitePersistence v0.1", 
