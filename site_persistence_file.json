@@ -387,16 +387,6 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "ePROMs Invitation", 
-      "name": "profile option invite", 
-      "resourceType": "AppText"
-    }, 
-    {
-      "custom_text": "ePROMs Reminder", 
-      "name": "profile option reminder", 
-      "resourceType": "AppText"
-    }, 
-    {
       "custom_text": "https://stg-lr7.us.truenth.org/c/portal/truenth/asset/detailed?groupId=20147&articleId=52668",
       "name": "UCSF Medical Center organization consent URL", 
       "resourceType": "AppText"
