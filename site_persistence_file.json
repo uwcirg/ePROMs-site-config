@@ -25,7 +25,7 @@
           "value": "uwmc"
         }
       ], 
-      "name": "UW Medicine (University of Washington)", 
+      "name": "CRV", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -33,7 +33,7 @@
       "address": [], 
       "id": 102, 
       "identifier": [], 
-      "name": "SCCA Urology Clinic", 
+      "name": "Australian Urology Associates, Glenferrie Road", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -44,7 +44,7 @@
       "address": [], 
       "id": 103, 
       "identifier": [], 
-      "name": "Urology Clinic at UWMC", 
+      "name": "Cabrini Medical Centre", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -55,7 +55,7 @@
       "address": [], 
       "id": 104, 
       "identifier": [], 
-      "name": "Urology Clinic at Harborview", 
+      "name": "Bairnsdale Regional Hospital", 
       "partOf": {
         "reference": "api/organization/101"
       }, 
@@ -79,7 +79,7 @@
           "value": "1164512851"
         }
       ], 
-      "name": "UCSF Medical Center", 
+      "name": "IRONMAN", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
