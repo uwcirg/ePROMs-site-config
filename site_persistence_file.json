@@ -154,7 +154,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including UCSF)) OR (user IN list of clinics including UCSF and UW))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user does NOT have PCaMETASTASIZE)] AND [startegy_5: (user does NOT have roll WRITE_ONLY)]", 
+      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including IRONMAN)) OR (user IN list of clinics including IRONMAN and CRV))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user does NOT have PCaMETASTASIZE)] AND [startegy_5: (user does NOT have roll WRITE_ONLY)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -192,7 +192,7 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "UCSF Medical Center"
+                      "IRONMAN"
                     ]
                   }
                 ]
@@ -207,8 +207,8 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "UW Medicine (University of Washington)", 
-                      "UCSF Medical Center"
+                      "CRV", 
+                      "IRONMAN"
                     ]
                   }
                 ]
@@ -388,12 +388,12 @@
     }, 
     {
       "custom_text": "https://stg-lr7.us.truenth.org/c/portal/truenth/asset/detailed?groupId=20147&articleId=52668",
-      "name": "UCSF Medical Center organization consent URL", 
+      "name": "IRONMAN organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
       "custom_text": "https://stg-lr7.us.truenth.org/c/portal/truenth/asset/detailed?groupId=20147&articleId=52651",
-      "name": "UW Medicine (University of Washington) organization consent URL", 
+      "name": "CRV organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
