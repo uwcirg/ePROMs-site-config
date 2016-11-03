@@ -352,12 +352,12 @@
       "resourceType": "Intervention"
     }, 
     {
-      "custom_text": "Gathering Health Outcomes to Improve Prostate Cancer Care", 
+      "custom_text": " ", 
       "name": "landing sub-title", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "Welcome to TrueNTH!", 
+      "custom_text": "Report your health in order to improve prostate cancer care", 
       "name": "landing title", 
       "resourceType": "AppText"
     }, 
