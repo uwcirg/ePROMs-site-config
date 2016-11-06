@@ -372,12 +372,12 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "ePROMs Invitation", 
+      "custom_text": "Report your health on TrueNTH. Email from (clinic name)", 
       "name": "profileSendEmail option invite", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "ePROMs Reminder", 
+      "custom_text": "Report your health on TrueNTH. Email from (clinic name)", 
       "name": "profileSendEmail option reminder", 
       "resourceType": "AppText"
     }, 
