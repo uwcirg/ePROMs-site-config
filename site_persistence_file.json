@@ -297,45 +297,6 @@
       "status_text": ""
     }, 
     {
-      "function_details": {
-        "function": "combine_strategies", 
-        "kwargs": [
-          {
-            "name": "strategy_1", 
-            "value": "allow_if_not_in_intervention"
-          }, 
-          {
-            "name": "strategy_1_kwargs", 
-            "value": [
-              {
-                "name": "intervention_name", 
-                "value": "sexual_recovery"
-              }
-            ]
-          }, 
-          {
-            "name": "strategy_2", 
-            "value": "not_in_role_list"
-          }, 
-          {
-            "name": "strategy_2_kwargs", 
-            "value": [
-              {
-                "name": "role_list", 
-                "value": [
-                  "write_only"
-                ]
-              }
-            ]
-          }
-        ]
-      }, 
-      "id": 2001, 
-      "intervention_name": "self_management", 
-      "name": "SELF_MANAGEMENT if not SR and not in WRITE_ONLY", 
-      "resourceType": "AccessStrategy"
-    }, 
-    {
       "card_html": "<p>Learn strategies for developing a new normal in your sex life after treatment for prostate cancer.</p>", 
       "description": "Sexual Recovery", 
       "link_label": "Sexual Recovery", 
