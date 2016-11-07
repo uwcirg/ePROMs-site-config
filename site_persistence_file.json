@@ -84,10 +84,10 @@
       "telecom": []
     }, 
     {
-      "card_html": "<p>When the button below is active, it's time for you to take the symptom questionnaire so the registry has an updated record of what kind of symptoms you're experiencing and how they impact you.</p>", 
+      "card_html": "<p>The questionnaire you are about to complete asks about your health. Many of the questions relate to symptoms people with prostate cancer may experience in their journey, as well as some general health questions. It should take approximately 15 minutes.</p><p>By having many people come back and complete this same questionnaire over time, we can collectively improve the care of all men with prostate cancer.</p><p>It is important that you answer all questions honestly and completely. Information contained within this survey will remain strictly confidential.</p>",
       "description": "Symptom Questionnaire", 
       "display_rank": 1, 
-      "link_label": "Take the symptom questionnaire", 
+      "link_label": "Begin questionnaire", 
       "name": "assessment_engine", 
       "public_access": true, 
       "resourceType": "Intervention", 
