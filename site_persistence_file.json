@@ -430,12 +430,12 @@
       "custom_text": "https://stg-lr7.us.truenth.org/c/portal/truenth/asset?groupId=20147&articleId=41577",
       "name": "Legal URL", 
       "resourceType": "AppText"
-    }
+    },
     {
       "custom_text": "Mobile", 
       "name": "Cellphone", 
       "resourceType": "AppText"
-    }, 
+    } 
   ], 
   "id": "SitePersistence v0.1", 
   "meta": {
