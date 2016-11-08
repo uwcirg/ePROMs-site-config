@@ -16,27 +16,16 @@
           "assigner": null, 
           "system": "http://hl7.org/fhir/sid/us-npi", 
           "use": "official", 
-          "value": "crv_temp_id"
+          "value": "aua_temp_id"
         }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "crv"
+          "value": "aua"
         }
       ], 
-      "name": "CRV", 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 102, 
-      "identifier": [], 
-      "name": "Australian Urology Associates, Glenferrie Road", 
-      "partOf": {
-        "reference": "api/organization/101"
-      }, 
+      "name": "Australian Urology Associates", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -128,7 +117,7 @@
       "resourceType": "Intervention"
     }, 
     {
-      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including IRONMAN)) OR (user IN list of clinics including IRONMAN and CRV))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user does NOT have PCaMETASTASIZE)] AND [startegy_5: (user does NOT have roll WRITE_ONLY)]", 
+      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including IRONMAN)) OR (user IN list of clinics including IRONMAN and Australian Urology Associates))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user does NOT have PCaMETASTASIZE)] AND [startegy_5: (user does NOT have roll WRITE_ONLY)]", 
       "function_details": {
         "function": "combine_strategies", 
         "kwargs": [
@@ -181,7 +170,7 @@
                   {
                     "name": "org_list", 
                     "value": [
-                      "CRV", 
+                      "Australian Urology Associates", 
                       "IRONMAN"
                     ]
                   }
@@ -343,7 +332,7 @@
     }, 
     {
       "custom_text": "https://stg-lr7.us.truenth.org/c/portal/truenth/asset/detailed?groupId=20147&articleId=52651",
-      "name": "CRV organization consent URL", 
+      "name": "Australian Urology Associates organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
