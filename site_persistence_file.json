@@ -95,34 +95,8 @@
     }, 
     {
       "function_details": {
-        "function": "combine_strategies", 
-        "kwargs": [
-          {
-            "name": "strategy_1", 
-            "value": "update_link_url"
-          }, 
-          {
-            "name": "strategy_1_kwargs", 
-            "value": [
-              {
-                "name": "intervention_name", 
-                "value": "assessment_engine"
-              }, 
-              {
-                "name": "link_url", 
-                "value": "https://eproms-demo.cirg.washington.edu/api/present-assessment/epic26"
-              }
-            ]
-          }, 
-          {
-            "name": "strategy_2", 
-            "value": "update_card_html_on_completion"
-          }, 
-          {
-            "name": "strategy_2_kwargs", 
-            "value": []
-          }
-        ]
+        "function": "update_card_html_on_completion",
+        "kwargs": []
       }, 
       "id": 2002, 
       "intervention_name": "assessment_engine", 
