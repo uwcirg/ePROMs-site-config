@@ -326,32 +326,32 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId=20147&articleId=52668",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52668",
       "name": "IRONMAN organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId=20147&articleId=52651",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52651",
       "name": "Australian Urology Associates organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId=20147&articleId=41603",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41603",
       "name": "Terms of Use URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId=20147&articleId=41549",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41549",
       "name": "About TrueNTH URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId=20147&articleId=41565",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41565",
       "name": "About Movember URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId=20147&articleId=41577",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41577",
       "name": "Legal URL", 
       "resourceType": "AppText"
     },
