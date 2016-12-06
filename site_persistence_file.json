@@ -377,7 +377,7 @@
         "INSTRUMENTS = [\n", 
         "    'epic26',\n", 
         "    'eq5d',\n", 
-        "#    'EuroQOL'\n", 
+        "    'eortc',\n", 
         "]\n"
       ]
     } 
