@@ -370,7 +370,7 @@
         "PROVIDER_BULK_DATA_ACCESS = True\n", 
         "REQUIRED_CORE_DATA = ['org', 'tou']\n", 
         "SHOW_EXPLORE = False\n", 
-        "SHOW_PROFILE_MACROS = ['indigenous']\n", 
+        "SHOW_PROFILE_MACROS = ['indigenous', 'pca_localized']\n", 
         "SHOW_WELCOME = True\n", 
         "\n", 
         "# Assessment Engine configuration\n", 
