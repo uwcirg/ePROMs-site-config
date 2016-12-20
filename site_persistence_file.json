@@ -336,7 +336,7 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41603",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=41603",
       "name": "Terms of Use URL", 
       "resourceType": "AppText"
     }, 
