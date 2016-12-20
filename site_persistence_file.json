@@ -180,15 +180,11 @@
           }, 
           {
             "name": "strategy_3", 
-            "value": "observation_check"
+            "value": "tx_begun"
           }, 
           {
             "name": "strategy_3_kwargs", 
             "value": [
-              {
-                "name": "display", 
-                "value": "treatment begun"
-              }, 
               {
                 "name": "boolean_value", 
                 "value": "false"
