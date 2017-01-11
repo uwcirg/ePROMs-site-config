@@ -10,50 +10,94 @@
     }, 
     {
       "address": [], 
-      "id": 101, 
+      "id": 10000, 
       "identifier": [
         {
           "assigner": null, 
           "system": "http://hl7.org/fhir/sid/us-npi", 
           "use": "official", 
-          "value": "aua_temp_id"
+          "value": "crv_temp_id"
         }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "aua"
+          "value": "crv"
         }
       ], 
-      "name": "Australian Urology Associates", 
+      "name": "CRV", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 103, 
+      "id": 11000, 
       "identifier": [], 
-      "name": "Cabrini Medical Centre", 
+      "name": "AUA Local Data Center", 
       "partOf": {
-        "reference": "api/organization/101"
+        "reference": "api/organization/10000"
       }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 104, 
+      "id": 11100, 
       "identifier": [], 
-      "name": "Bairnsdale Regional Hospital", 
+      "name": "AUA Site 1", 
       "partOf": {
-        "reference": "api/organization/101"
+        "reference": "api/organization/11000"
       }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 201, 
+      "id": 11200, 
+      "identifier": [], 
+      "name": "AUA Site 2", 
+      "partOf": {
+        "reference": "api/organization/11000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 12000, 
+      "identifier": [], 
+      "name": "MUSIC Local Data Center", 
+      "partOf": {
+        "reference": "api/organization/10000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 12100, 
+      "identifier": [], 
+      "name": "MUSIC Site 1", 
+      "partOf": {
+        "reference": "api/organization/12000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 12200, 
+      "identifier": [], 
+      "name": "MUSIC Site 2", 
+      "partOf": {
+        "reference": "api/organization/12000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 20000, 
       "identifier": [
         {
           "assigner": null, 
@@ -69,6 +113,127 @@
         }
       ], 
       "name": "IRONMAN", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21000, 
+      "identifier": [], 
+      "name": "Australia (Region/Country Site)", 
+      "partOf": {
+        "reference": "api/organization/20000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21100, 
+      "identifier": [], 
+      "name": "AUA Recruiting Site", 
+      "partOf": {
+        "reference": "api/organization/21000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21110, 
+      "identifier": [], 
+      "name": "AUA Child Site 1", 
+      "partOf": {
+        "reference": "api/organization/21100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21120, 
+      "identifier": [], 
+      "name": "AUA Child Site 2", 
+      "partOf": {
+        "reference": "api/organization/21100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21200, 
+      "identifier": [], 
+      "name": "Australia Recruiting Site B", 
+      "partOf": {
+        "reference": "api/organization/21000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21210, 
+      "identifier": [], 
+      "name": "AU B Child Site 1", 
+      "partOf": {
+        "reference": "api/organization/21200"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21220, 
+      "identifier": [], 
+      "name": "AU B Child Site 2", 
+      "partOf": {
+        "reference": "api/organization/21200"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22000, 
+      "identifier": [], 
+      "name": "USA (Region/Country Site)", 
+      "partOf": {
+        "reference": "api/organization/20000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22100, 
+      "identifier": [], 
+      "name": "MSK Recruiting Site", 
+      "partOf": {
+        "reference": "api/organization/22000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22110, 
+      "identifier": [], 
+      "name": "MSK Child Site 1", 
+      "partOf": {
+        "reference": "api/organization/22100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22120, 
+      "identifier": [], 
+      "name": "MSK Child Site 2", 
+      "partOf": {
+        "reference": "api/organization/22100"
+      }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -214,7 +379,7 @@
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52651",
-      "name": "Australian Urology Associates organization consent URL", 
+      "name": "CRV organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
