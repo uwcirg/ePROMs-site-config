@@ -419,7 +419,7 @@
         "SHOW_EXPLORE = False\n", 
         "SHOW_PROFILE_MACROS = ['indigenous', 'pca_localized']\n", 
         "CONSENT_EDIT_PERMISSIBLE_ROLES = ['provider', 'admin']\n",
-	"CUSTOM_PATIENT_DETAIL = True\n",
+        "CUSTOM_PATIENT_DETAIL = True\n",
         "SHOW_WELCOME = True\n", 
         "\n", 
         "# Assessment Engine configuration\n", 
