@@ -238,6 +238,28 @@
       "telecom": []
     }, 
     {
+      "address": [], 
+      "id": 22200, 
+      "identifier": [], 
+      "name": "UNC Recruiting Site", 
+      "partOf": {
+        "reference": "api/organization/22000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22210, 
+      "identifier": [], 
+      "name": "UNC Child Site 1", 
+      "partOf": {
+        "reference": "api/organization/22200"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
       "card_html": "set by access strategy depending on state", 
       "description": "", 
       "display_rank": 1, 
