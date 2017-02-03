@@ -439,7 +439,7 @@
         "PROVIDER_BULK_DATA_ACCESS = True\n", 
         "REQUIRED_CORE_DATA = ['org', 'tou']\n", 
         "SHOW_EXPLORE = False\n", 
-        "SHOW_PROFILE_MACROS = ['indigenous', 'pca_localized']\n", 
+        "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'pca_localized']\n", 
         "CONSENT_EDIT_PERMISSIBLE_ROLES = ['provider', 'admin']\n",
         "CUSTOM_PATIENT_DETAIL = True\n",
         "SHOW_WELCOME = True\n", 
