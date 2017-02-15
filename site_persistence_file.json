@@ -442,6 +442,7 @@
         "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'pca_localized']\n", 
         "CONSENT_EDIT_PERMISSIBLE_ROLES = ['provider', 'admin']\n",
         "CUSTOM_PATIENT_DETAIL = True\n",
+        "LOCALIZED_AFFILIATE_ORG = 'CRV'",
         "SHOW_WELCOME = True\n", 
         "\n", 
         "# Assessment Engine configuration\n", 
