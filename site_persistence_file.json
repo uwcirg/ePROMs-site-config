@@ -208,7 +208,7 @@
       "address": [], 
       "id": 22100, 
       "identifier": [], 
-      "name": "MSK Recruiting Site", 
+      "name": "Memorial Sloan Kettering",
       "partOf": {
         "reference": "api/organization/22000"
       }, 
@@ -219,7 +219,7 @@
       "address": [], 
       "id": 22110, 
       "identifier": [], 
-      "name": "MSK Child Site 1", 
+      "name": "MSK Kimmel Center",
       "partOf": {
         "reference": "api/organization/22100"
       }, 
@@ -230,7 +230,7 @@
       "address": [], 
       "id": 22120, 
       "identifier": [], 
-      "name": "MSK Child Site 2", 
+      "name": "MSK Basking Ridge",
       "partOf": {
         "reference": "api/organization/22100"
       }, 
@@ -241,7 +241,7 @@
       "address": [], 
       "id": 22200, 
       "identifier": [], 
-      "name": "UNC Recruiting Site", 
+      "name": "UNC Medical Center",
       "partOf": {
         "reference": "api/organization/22000"
       }, 
@@ -252,7 +252,7 @@
       "address": [], 
       "id": 22210, 
       "identifier": [], 
-      "name": "UNC Child Site 1", 
+      "name": "UNC Uro Med Ctr Office",
       "partOf": {
         "reference": "api/organization/22200"
       }, 
