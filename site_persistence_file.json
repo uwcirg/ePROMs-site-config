@@ -255,6 +255,28 @@
       "name": "UNC Uro Med Ctr Office",
       "partOf": {
         "reference": "api/organization/22200"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    },
+    {
+      "address": [],
+      "id": 22220,
+      "identifier": [],
+      "name": "UNC Uro Carolina Pointe 1",
+      "partOf": {
+        "reference": "api/organization/22200"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    },
+    {
+      "address": [],
+      "id": 22230,
+      "identifier": [],
+      "name": "UNC Uro NC Cancer Hosp",
+      "partOf": {
+        "reference": "api/organization/22200"
       }, 
       "resourceType": "Organization", 
       "telecom": []
