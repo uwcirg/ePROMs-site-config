@@ -450,6 +450,8 @@
         "    'epic26',\n", 
         "    'eq5d',\n", 
         "    'eproms_add',\n", 
+        "    'prems',\n", 
+        "    'hpfs',\n", 
         "    'eortc',\n", 
         "]\n"
       ]
