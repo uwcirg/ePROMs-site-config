@@ -473,6 +473,7 @@
         "    'eq5d',\n", 
         "    'eproms_add',\n", 
         "    'prems',\n", 
+        "    'irondemog',\n",        
         "    'hpfs',\n", 
         "    'eortc',\n", 
         "]\n"
