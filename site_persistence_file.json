@@ -97,6 +97,94 @@
     }, 
     {
       "address": [], 
+      "id": 13000, 
+      "identifier": [], 
+      "name": "Queensland University of Technology LDC", 
+      "partOf": {
+        "reference": "api/organization/10000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13100, 
+      "identifier": [], 
+      "name": "Wesley Urology Clinic", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13200, 
+      "identifier": [], 
+      "name": "Genesis Cancer Care Queensland", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13300, 
+      "identifier": [], 
+      "name": "Australian Prostate Cancer Research Centre", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13400, 
+      "identifier": [], 
+      "name": "Gc Urology", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13500, 
+      "identifier": [], 
+      "name": "Medical Oncology, Division Of Cancer Services, Princess Alexandra Hospital", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13600, 
+      "identifier": [], 
+      "name": "Urology South Brisbane", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13700, 
+      "identifier": [], 
+      "name": "Department Of Urology, Princess Alexandra Hospital", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
       "id": 20000, 
       "identifier": [
         {
