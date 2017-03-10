@@ -475,6 +475,16 @@
       "resourceType": "AppText"
     }, 
     {
+      "custom_text": "Register for TrueNTH ePROMs",
+      "name": "registration title",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "Create a password",
+      "name": "registration prompt",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "ePROMs Invite", 
       "name": "profileSendEmail option invite", 
       "resourceType": "AppText"
