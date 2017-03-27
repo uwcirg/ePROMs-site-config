@@ -53,50 +53,6 @@
     }, 
     {
       "address": [], 
-      "id": 11200, 
-      "identifier": [], 
-      "name": "AUA Site 2", 
-      "partOf": {
-        "reference": "api/organization/11000"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 12000, 
-      "identifier": [], 
-      "name": "MUSIC Local Data Center", 
-      "partOf": {
-        "reference": "api/organization/10000"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 12100, 
-      "identifier": [], 
-      "name": "MUSIC Site 1", 
-      "partOf": {
-        "reference": "api/organization/12000"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 12200, 
-      "identifier": [], 
-      "name": "MUSIC Site 2", 
-      "partOf": {
-        "reference": "api/organization/12000"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
       "id": 13000, 
       "identifier": [], 
       "name": "Queensland University of Technology LDC", 
