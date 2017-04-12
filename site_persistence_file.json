@@ -10,50 +10,138 @@
     }, 
     {
       "address": [], 
-      "id": 101, 
+      "id": 10000, 
       "identifier": [
         {
           "assigner": null, 
           "system": "http://hl7.org/fhir/sid/us-npi", 
           "use": "official", 
-          "value": "aua_temp_id"
+          "value": "crv_temp_id"
         }, 
         {
           "assigner": null, 
           "system": "http://us.truenth.org/identity-codes/shortcut-alias", 
           "use": "usual", 
-          "value": "aua"
+          "value": "crv"
         }
       ], 
-      "name": "Australian Urology Associates", 
+      "name": "CRV", 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 103, 
+      "id": 11000, 
       "identifier": [], 
-      "name": "Cabrini Medical Centre", 
+      "name": "AUA Local Data Center", 
       "partOf": {
-        "reference": "api/organization/101"
+        "reference": "api/organization/10000"
       }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 104, 
+      "id": 11100, 
       "identifier": [], 
-      "name": "Bairnsdale Regional Hospital", 
+      "name": "AUA Site 1", 
       "partOf": {
-        "reference": "api/organization/101"
+        "reference": "api/organization/11000"
       }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
     {
       "address": [], 
-      "id": 201, 
+      "id": 13000, 
+      "identifier": [], 
+      "name": "Queensland University of Technology LDC", 
+      "partOf": {
+        "reference": "api/organization/10000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13100, 
+      "identifier": [], 
+      "name": "Wesley Urology Clinic", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13200, 
+      "identifier": [], 
+      "name": "Genesis Cancer Care Queensland", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13300, 
+      "identifier": [], 
+      "name": "Australian Prostate Cancer Research Centre", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13400, 
+      "identifier": [], 
+      "name": "Gc Urology", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13500, 
+      "identifier": [], 
+      "name": "Medical Oncology, Division Of Cancer Services, Princess Alexandra Hospital", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13600, 
+      "identifier": [], 
+      "name": "Urology South Brisbane", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 13700, 
+      "identifier": [], 
+      "name": "Department Of Urology, Princess Alexandra Hospital", 
+      "partOf": {
+        "reference": "api/organization/13000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 20000, 
       "identifier": [
         {
           "assigner": null, 
@@ -69,6 +157,171 @@
         }
       ], 
       "name": "IRONMAN", 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21000, 
+      "identifier": [], 
+      "name": "Australia (Region/Country Site)", 
+      "partOf": {
+        "reference": "api/organization/20000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21100, 
+      "identifier": [], 
+      "name": "AUA Recruiting Site", 
+      "partOf": {
+        "reference": "api/organization/21000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21110, 
+      "identifier": [], 
+      "name": "AUA Child Site 1", 
+      "partOf": {
+        "reference": "api/organization/21100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21120, 
+      "identifier": [], 
+      "name": "AUA Child Site 2", 
+      "partOf": {
+        "reference": "api/organization/21100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21200, 
+      "identifier": [], 
+      "name": "Australia Recruiting Site B", 
+      "partOf": {
+        "reference": "api/organization/21000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21210, 
+      "identifier": [], 
+      "name": "AU B Child Site 1", 
+      "partOf": {
+        "reference": "api/organization/21200"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21220, 
+      "identifier": [], 
+      "name": "AU B Child Site 2", 
+      "partOf": {
+        "reference": "api/organization/21200"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22000, 
+      "identifier": [], 
+      "name": "USA (Region/Country Site)", 
+      "partOf": {
+        "reference": "api/organization/20000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22100, 
+      "identifier": [], 
+      "name": "Memorial Sloan Kettering",
+      "partOf": {
+        "reference": "api/organization/22000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22110, 
+      "identifier": [], 
+      "name": "MSK Kimmel Center",
+      "partOf": {
+        "reference": "api/organization/22100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22120, 
+      "identifier": [], 
+      "name": "MSK Basking Ridge",
+      "partOf": {
+        "reference": "api/organization/22100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22200, 
+      "identifier": [], 
+      "name": "UNC Medical Center",
+      "partOf": {
+        "reference": "api/organization/22000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22210, 
+      "identifier": [], 
+      "name": "UNC Uro Med Ctr Office",
+      "partOf": {
+        "reference": "api/organization/22200"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    },
+    {
+      "address": [],
+      "id": 22220,
+      "identifier": [],
+      "name": "UNC Uro Carolina Pointe 1",
+      "partOf": {
+        "reference": "api/organization/22200"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    },
+    {
+      "address": [],
+      "id": 22230,
+      "identifier": [],
+      "name": "UNC Uro NC Cancer Hosp",
+      "partOf": {
+        "reference": "api/organization/22200"
+      }, 
       "resourceType": "Organization", 
       "telecom": []
     }, 
@@ -115,124 +368,6 @@
       "name": "decision_support_p3p", 
       "public_access": false, 
       "resourceType": "Intervention"
-    }, 
-    {
-      "description": "[strategy_1: (user NOT IN sexual_recovery)] AND [strategy_2 <a nested combined strategy>: ((user NOT IN list of clinics (including IRONMAN)) OR (user IN list of clinics including IRONMAN and Australian Urology Associates))] AND [strategy_3: (user has NOT started TX)] AND [strategy_4: (user does NOT have PCaMETASTASIZE)] AND [startegy_5: (user does NOT have roll WRITE_ONLY)]", 
-      "function_details": {
-        "function": "combine_strategies", 
-        "kwargs": [
-          {
-            "name": "strategy_1", 
-            "value": "allow_if_not_in_intervention"
-          }, 
-          {
-            "name": "strategy_1_kwargs", 
-            "value": [
-              {
-                "name": "intervention_name", 
-                "value": "sexual_recovery"
-              }
-            ]
-          }, 
-          {
-            "name": "strategy_2", 
-            "value": "combine_strategies"
-          }, 
-          {
-            "name": "strategy_2_kwargs", 
-            "value": [
-              {
-                "name": "combinator", 
-                "value": "any"
-              }, 
-              {
-                "name": "strategy_1", 
-                "value": "not_in_clinic_list"
-              }, 
-              {
-                "name": "strategy_1_kwargs", 
-                "value": [
-                  {
-                    "name": "org_list", 
-                    "value": [
-                      "IRONMAN"
-                    ]
-                  }
-                ]
-              }, 
-              {
-                "name": "strategy_2", 
-                "value": "limit_by_clinic_list"
-              }, 
-              {
-                "name": "strategy_2_kwargs", 
-                "value": [
-                  {
-                    "name": "org_list", 
-                    "value": [
-                      "Australian Urology Associates", 
-                      "IRONMAN"
-                    ]
-                  }
-                ]
-              }
-            ]
-          }, 
-          {
-            "name": "strategy_3", 
-            "value": "observation_check"
-          }, 
-          {
-            "name": "strategy_3_kwargs", 
-            "value": [
-              {
-                "name": "display", 
-                "value": "treatment begun"
-              }, 
-              {
-                "name": "boolean_value", 
-                "value": "false"
-              }
-            ]
-          }, 
-          {
-            "name": "strategy_4", 
-            "value": "observation_check"
-          }, 
-          {
-            "name": "strategy_4_kwargs", 
-            "value": [
-              {
-                "name": "display", 
-                "value": "PCa localized diagnosis"
-              }, 
-              {
-                "name": "boolean_value", 
-                "value": "true"
-              }
-            ]
-          }, 
-          {
-            "name": "strategy_5", 
-            "value": "not_in_role_list"
-          }, 
-          {
-            "name": "strategy_5_kwargs", 
-            "value": [
-              {
-                "name": "role_list", 
-                "value": [
-                  "write_only"
-                ]
-              }
-            ]
-          }
-        ]
-      }, 
-      "id": 2000, 
-      "intervention_name": "decision_support_p3p", 
-      "name": "P3P Access Conditions", 
-      "resourceType": "AccessStrategy"
     }, 
     {
       "card_html": "Decision Support WiserCare", 
@@ -296,6 +431,16 @@
       "resourceType": "AppText"
     }, 
     {
+      "custom_text": "Register for TrueNTH ePROMs",
+      "name": "registration title",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "Create a password",
+      "name": "registration prompt",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "ePROMs Invite", 
       "name": "profileSendEmail option invite", 
       "resourceType": "AppText"
@@ -326,33 +471,38 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52668",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52668&editorUrl=true",
       "name": "IRONMAN organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52651",
-      "name": "Australian Urology Associates organization consent URL", 
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=52651&editorUrl=true",
+      "name": "CRV organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=41603",
-      "name": "Terms of Use URL", 
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=41603&editorUrl=true",
+      "name": "Initial Consent Terms URL", 
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=cbe17d0d-f25d-27fb-0d92-c22bc687bb0f&editorUrl=true",
+      "name": "Terms and Conditions URL",
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41549",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=41549&editorUrl=true",
       "name": "About TrueNTH URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41565",
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=41565&editorUrl=true",
       "name": "About Movember URL", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset?groupId={config[LR_GROUP]}&articleId=41577",
-      "name": "Legal URL", 
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&articleId=41577&editorUrl=true",
+      "name": "Privacy URL", 
       "resourceType": "AppText"
     },
     {
@@ -365,20 +515,27 @@
       "results": [
         "## SITE-PERSISTENCE Managed: File managed with site_persistence - don't edit.\n", 
         "DEFAULT_LOCALE = 'en_AU'\n", 
-        "PATIENTS_BY_PROVIDER_ADDL_FIELDS = ['status']\n", 
+        "PATIENT_LIST_ADDL_FIELDS = ['status']\n",
         "PORTAL_STYLESHEET = 'css/eproms.css'\n", 
-        "PROVIDER_BULK_DATA_ACCESS = True\n", 
+        "STAFF_BULK_DATA_ACCESS = True\n",
         "REQUIRED_CORE_DATA = ['org', 'tou']\n", 
         "SHOW_EXPLORE = False\n", 
-        "SHOW_PROFILE_MACROS = ['indigenous', 'pca_localized']\n", 
-        "SHOW_WELCOME = True\n", 
+        "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'language']\n", 
+        "CONSENT_EDIT_PERMISSIBLE_ROLES = ['staff', 'admin']\n",
+        "CUSTOM_PATIENT_DETAIL = True\n",
+        "LOCALIZED_AFFILIATE_ORG = 'CRV'\n",
+        "SHOW_WELCOME = False\n", 
         "\n", 
         "# Assessment Engine configuration\n", 
         "INSTRUMENTS = [\n", 
         "    'epic26',\n", 
         "    'eq5d',\n", 
         "    'eproms_add',\n", 
+        "    'prems',\n", 
+        "    'irondemog',\n",        
+        "    'hpfs',\n", 
         "    'eortc',\n", 
+        "    'comorb',\n", 
         "]\n"
       ]
     } 
@@ -394,3 +551,4 @@
   "resourceType": "Bundle", 
   "type": "document"
 }
+
