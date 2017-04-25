@@ -529,7 +529,6 @@
         "# Assessment Engine configuration\n", 
         "INSTRUMENTS = [\n", 
         "    'epic26',\n", 
-        "    'eq5d',\n", 
         "    'eproms_add',\n", 
         "    'prems',\n", 
         "    'irondemog',\n",        
