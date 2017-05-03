@@ -327,31 +327,31 @@
     },
     {
         "resourceType": "Questionnaire",
-        "title": "epic26"
+        "name": "epic26"
     },
     {
         "resourceType": "Questionnaire",
-        "title": "eproms_add"
+        "name": "eproms_add"
     },
     {
         "resourceType": "Questionnaire",
-        "title": "comorb"
+        "name": "comorb"
     },
     {
         "resourceType": "Questionnaire",
-        "title": "eortc"
+        "name": "eortc"
     },
     {
         "resourceType": "Questionnaire",
-        "title": "hpfs"
+        "name": "hpfs"
     },
     {
         "resourceType": "Questionnaire",
-        "title": "prems"
+        "name": "prems"
     },
     {
         "resourceType": "Questionnaire",
-        "title": "irondemog"
+        "name": "irondemog"
     },
     {
         "resourceType": "QuestionnaireBank",
