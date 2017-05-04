@@ -363,22 +363,22 @@
             {
                 "rank": 1,
                 "questionnaire": {"reference": "api/questionnaire/epic26"},
-                "days_till_due": 7,
-                "days_till_overdue": 90
+                "days_till_due": 1,
+                "days_till_overdue": 91
             },
             {
                 "rank": 2,
                 "questionnaire": {"reference": "api/questionnaire/eproms_add"},
                 "name": "eproms_add",
-                "days_till_due": 7,
-                "days_till_overdue": 90
+                "days_till_due": 1,
+                "days_till_overdue": 91
             },
             {
                 "rank": 3,
                 "questionnaire": {"reference": "api/questionnaire/comorb"},
                 "name": "comorb",
-                "days_till_due": 7,
-                "days_till_overdue": 90
+                "days_till_due": 1,
+                "days_till_overdue": 91
             }
         ]
     },
