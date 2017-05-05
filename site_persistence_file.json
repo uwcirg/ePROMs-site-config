@@ -38,7 +38,18 @@
         "reference": "api/organization/10000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {"url": "http://hl7.org/fhir/valueset/languages",
+          "valueCodeableConcept": {
+            "coding": [
+              {"system": "urn:ietf:bcp:47",
+               "code": "en_US"
+              }
+            ]
+          }
+        }
+      ]
     }, 
     {
       "address": [], 
@@ -60,7 +71,18 @@
         "reference": "api/organization/10000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {"url": "http://hl7.org/fhir/valueset/languages",
+          "valueCodeableConcept": {
+            "coding": [
+              {"system": "urn:ietf:bcp:47",
+               "code": "en_US"
+              }
+            ]
+          }
+        }
+      ]
     }, 
     {
       "address": [], 
@@ -169,7 +191,18 @@
         "reference": "api/organization/20000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {"url": "http://hl7.org/fhir/valueset/languages",
+          "valueCodeableConcept": {
+            "coding": [
+              {"system": "urn:ietf:bcp:47",
+               "code": "en_US"
+              }
+            ]
+          }
+        }
+      ]
     }, 
     {
       "address": [], 
@@ -246,7 +279,18 @@
         "reference": "api/organization/20000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {"url": "http://hl7.org/fhir/valueset/languages",
+          "valueCodeableConcept": {
+            "coding": [
+              {"system": "urn:ietf:bcp:47",
+               "code": "en_US"
+              }
+            ]
+          }
+        }
+      ]
     }, 
     {
       "address": [], 
