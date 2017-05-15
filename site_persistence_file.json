@@ -619,6 +619,8 @@
         "REQUIRED_CORE_DATA = ['org', 'tou']\n", 
         "SHOW_EXPLORE = False\n", 
         "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'language']\n", 
+        "USER_FORGOT_PASSWORD_EMAIL_TEMPLATE = 'flask_user/emails/eproms_forgot_password'\n",
+        "USER_PASSWORD_CHANGED_EMAIL_TEMPLATE = 'flask_user/emails/eproms_password_changed'\n",
         "CONSENT_EDIT_PERMISSIBLE_ROLES = ['staff', 'admin']\n",
         "CUSTOM_PATIENT_DETAIL = True\n",
         "LOCALIZED_AFFILIATE_ORG = 'CRV'\n",
