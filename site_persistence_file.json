@@ -400,6 +400,7 @@
     {
         "resourceType": "QuestionnaireBank",
         "name": "CRV Questionnaire Bank",
+        "classification": "baseline",
         "organization": {
             "reference": "api/organization/10000"
         },
@@ -429,6 +430,7 @@
     {
         "resourceType": "QuestionnaireBank",
         "name": "IRONMAN Questionnaire Bank",
+        "classification": "baseline",
         "organization": {
             "reference": "api/organization/20000"
         },
@@ -453,9 +455,19 @@
                 "name": "prems",
                 "days_till_due": 1,
                 "days_till_overdue": 30
-            },
+            }
+        ]
+    },
+    {
+        "resourceType": "QuestionnaireBank",
+        "name": "IRONMAN indefinite Questionnaire Bank",
+        "classification": "indefinite",
+        "organization": {
+            "reference": "api/organization/20000"
+        },
+        "questionnaires": [
             {
-                "rank": 4,
+                "rank": 1,
                 "questionnaire": {"reference": "api/questionnaire/irondemog"},
                 "days_till_due": 1,
                 "days_till_overdue": 50000
