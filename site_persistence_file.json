@@ -347,7 +347,7 @@
     },
     {
         "resourceType": "Questionnaire",
-        "name": "hpfs"
+        "name": "ironmisc"
     },
     {
         "resourceType": "Questionnaire",
@@ -411,8 +411,8 @@
             },
             {
                 "rank": 3,
-                "questionnaire": {"reference": "api/questionnaire/hpfs"},
-                "name": "hpfs",
+                "questionnaire": {"reference": "api/questionnaire/ironmisc"},
+                "name": "ironmisc",
                 "days_till_due": 1,
                 "days_till_overdue": 30
             },
@@ -651,7 +651,7 @@
         "    'eproms_add',\n", 
         "    'prems',\n", 
         "    'irondemog',\n",        
-        "    'hpfs',\n", 
+        "    'ironmisc',\n", 
         "    'eortc',\n", 
         "    'comorb',\n", 
         "]\n"
