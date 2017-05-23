@@ -351,6 +351,10 @@
     },
     {
         "resourceType": "Questionnaire",
+        "name": "factfpsi"
+    },
+    {
+        "resourceType": "Questionnaire",
         "name": "prems"
     },
     {
@@ -418,6 +422,13 @@
             },
             {
                 "rank": 4,
+                "questionnaire": {"reference": "api/questionnaire/factfpsi"},
+                "name": "factfpsi",
+                "days_till_due": 1,
+                "days_till_overdue": 30
+            },
+            {
+                "rank": 5,
                 "questionnaire": {"reference": "api/questionnaire/prems"},
                 "name": "prems",
                 "days_till_due": 1,
@@ -652,6 +663,7 @@
         "    'prems',\n", 
         "    'irondemog',\n",        
         "    'ironmisc',\n", 
+        "    'factfpsi',\n", 
         "    'eortc',\n", 
         "    'comorb',\n", 
         "]\n"
