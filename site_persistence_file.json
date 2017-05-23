@@ -646,7 +646,7 @@
         "PATIENT_LIST_ADDL_FIELDS = ['status','study_id']\n",
         "PORTAL_STYLESHEET = 'css/eproms.css'\n", 
         "STAFF_BULK_DATA_ACCESS = True\n",
-        "REQUIRED_CORE_DATA = ['org', 'tou']\n", 
+        "REQUIRED_CORE_DATA = ['org', 'tou', 'race', 'ethnicity']\n", 
         "SHOW_EXPLORE = False\n", 
         "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'language']\n", 
         "USER_FORGOT_PASSWORD_EMAIL_TEMPLATE = 'flask_user/emails/eproms_forgot_password'\n",
