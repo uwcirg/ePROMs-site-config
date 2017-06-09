@@ -697,7 +697,7 @@
         "PORTAL_STYLESHEET = 'css/eproms.css'\n", 
         "STAFF_BULK_DATA_ACCESS = True\n",
         "SMARTLING_PROJECT_ID = 'dd112801a'\n",
-        "REQUIRED_CORE_DATA = ['org', 'tou', 'race', 'ethnicity']\n", 
+        "REQUIRED_CORE_DATA = ['org', 'website_terms_of_use', 'subject_website_consent', 'stored_website_consent_form', 'privacy_policy', 'race', 'ethnicity']\n", 
         "SHOW_EXPLORE = False\n", 
         "SHOW_PROFILE_MACROS = ['race', 'ethnicity', 'language']\n", 
         "USER_FORGOT_PASSWORD_EMAIL_TEMPLATE = 'flask_user/emails/eproms_forgot_password'\n",
