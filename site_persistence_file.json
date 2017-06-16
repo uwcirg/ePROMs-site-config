@@ -613,6 +613,11 @@
       "resourceType": "AppText"
     },
     {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=106e46a0-86e8-d61c-7173-1df271180503&editorUrl=true",
+      "name": "CRV patient website consent URL",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=d7316b23-b563-0c36-76e4-a3ddd0ea3e81&editorUrl=true",
       "name": "CRV staff website consent URL",
       "resourceType": "AppText"
@@ -620,6 +625,11 @@
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=09bb5690-d49b-a10e-5339-e677353e694f&editorUrl=true",
       "name": "IRONMAN organization consent URL", 
+      "resourceType": "AppText"
+    }, 
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=09bb5690-d49b-a10e-5339-e677353e694f&editorUrl=true",
+      "name": "IRONMAN patient consent URL", 
       "resourceType": "AppText"
     }, 
     {
