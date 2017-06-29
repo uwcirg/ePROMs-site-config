@@ -608,6 +608,16 @@
       "resourceType": "AppText"
     },
     {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=bd917d2f-1534-6c57-6e6d-d392fc64c81a&editorUrl=true",
+      "name": "IRONMAN website declaration form URL",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=f344d0ea-48c5-8889-fe2e-d42d599df796&editorUrl=true",
+      "name": "CRV website declaration form URL",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?groupId={config[LR_GROUP]}&version=latest&uuid=d7316b23-b563-0c36-76e4-a3ddd0ea3e81&editorUrl=true",
       "name": "IRONMAN staff website consent URL",
       "resourceType": "AppText"
