@@ -331,6 +331,10 @@
     },
     {
         "resourceType": "Questionnaire",
+        "name": "epic23"
+    },
+    {
+        "resourceType": "Questionnaire",
         "name": "epic26"
     },
     {
@@ -422,8 +426,8 @@
             },
             {
                 "rank": 4,
-                "questionnaire": {"reference": "api/questionnaire/epic26"},
-                "name": "epic26",
+                "questionnaire": {"reference": "api/questionnaire/epic23"},
+                "name": "epic23",
                 "days_till_due": 1,
                 "days_till_overdue": 30
             },
@@ -743,6 +747,7 @@
         "\n", 
         "# Assessment Engine configuration\n", 
         "INSTRUMENTS = [\n", 
+        "    'epic23',\n", 
         "    'epic26',\n", 
         "    'eproms_add',\n", 
         "    'prems',\n", 
