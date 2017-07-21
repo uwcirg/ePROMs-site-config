@@ -712,6 +712,16 @@
       "resourceType": "AppText"
     },
     {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=10566c8c-36cd-debc-ee87-280bbd0c6710&editorUrl=true",
+      "name": "IRONMAN staff registraion email URL",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=739084ac-b8ab-3395-97d1-d9cc72904198&editorUrl=true",
+      "name": "CRV staff registraion email URL",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=f2ea71f5-d47a-1a5c-130b-830b9bd785cf&editorUrl=true",
       "name": "Privacy URL", 
       "resourceType": "AppText"
