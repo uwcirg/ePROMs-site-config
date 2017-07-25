@@ -752,6 +752,7 @@
         "CUSTOM_PATIENT_DETAIL = True\n",
         "LOCALIZED_AFFILIATE_ORG = 'CRV'\n",
         "SHOW_WELCOME = False\n",
+        "HIDE_TRUENTH_ID_FIELD = True\n",
         "TRUENTH_LINK_URL = False\n",
         "MOVEMER_LINK_URL = 'https://movember.com/'\n",
         "\n", 
