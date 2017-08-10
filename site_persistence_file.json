@@ -727,6 +727,11 @@
       "resourceType": "AppText"
     },
     {
+      "custom_text": "Study Consent Date", 
+      "name": "consent date label", 
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "Mobile", 
       "name": "Cellphone", 
       "resourceType": "AppText"
