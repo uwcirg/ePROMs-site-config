@@ -597,6 +597,11 @@
       "resourceType": "AppText"
     }, 
     {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=32a6713e-5051-8079-0ed3-0a7eeb607c03",
+      "name": "profileSendEmail invite email",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "Report your health on TrueNTH. Email from (clinic name)", 
       "name": "profileSendEmail reminder email_subject", 
       "resourceType": "AppText"
