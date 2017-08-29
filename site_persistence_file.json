@@ -742,6 +742,13 @@
       "resourceType": "AppText"
     }, 
     {
+      "resourceType": "ScheduledJob",
+      "schedule": "* * * * *",
+      "name": "Update assessment status cache",
+      "active": true,
+      "task": "cache_assessment_status"
+    },
+    {
       "resourceType": "site.cfg", 
       "results": [
         "## SITE-PERSISTENCE Managed: File managed with site_persistence - don't edit.\n", 
