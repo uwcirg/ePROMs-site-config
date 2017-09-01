@@ -597,6 +597,21 @@
       "resourceType": "AppText"
     }, 
     {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=32a6713e-5051-8079-0ed3-0a7eeb607c03",
+      "name": "profileSendEmail invite email",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=9d2bc012-aca4-975b-6f3c-1c6ddfb66c82",
+      "name": "profileSendEmail invite email CRV",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=d6b8a195-b34e-8c0f-c611-d990f9c42f23",
+      "name": "profileSendEmail invite email IRONMAN",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "Report your health on TrueNTH. Email from (clinic name)", 
       "name": "profileSendEmail reminder email_subject", 
       "resourceType": "AppText"
@@ -727,10 +742,22 @@
       "resourceType": "AppText"
     },
     {
+      "custom_text": "Study Consent Date", 
+      "name": "consent date label", 
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "Mobile", 
       "name": "Cellphone", 
       "resourceType": "AppText"
     }, 
+    {
+      "resourceType": "ScheduledJob",
+      "schedule": "* * * * *",
+      "name": "Update assessment status cache",
+      "active": true,
+      "task": "cache_assessment_status"
+    },
     {
       "resourceType": "site.cfg", 
       "results": [
