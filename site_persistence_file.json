@@ -366,96 +366,244 @@
         "name": "irondemog"
     },
     {
-        "resourceType": "QuestionnaireBank",
-        "name": "CRV Questionnaire Bank",
-        "classification": "baseline",
-        "organization": {
-            "reference": "api/organization/10000"
-        },
-        "questionnaires": [
-            {
-                "rank": 1,
-                "questionnaire": {"reference": "api/questionnaire/epic26"},
-                "days_till_due": 1,
-                "days_till_overdue": 90
-            },
-            {
-                "rank": 2,
-                "questionnaire": {"reference": "api/questionnaire/eproms_add"},
-                "name": "eproms_add",
-                "days_till_due": 1,
-                "days_till_overdue": 90
-            },
-            {
-                "rank": 3,
-                "questionnaire": {"reference": "api/questionnaire/comorb"},
-                "name": "comorb",
-                "days_till_due": 1,
-                "days_till_overdue": 90
-            }
-        ]
+      "resourceType": "QuestionnaireBank", 
+      "name": "CRV baseline", 
+      "organization": {
+        "reference": "api/organization/10000"
+      }, 
+      "classification": "baseline", 
+      "start": "{\"days\": 0}",
+      "overdue": "{\"days\": 1}", 
+      "expired": "{\"days\": 91}", 
+      "recurs": [], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "eproms_add", 
+            "reference": "api/questionnaire/eproms_add"
+          }, 
+          "rank": 0
+        }, 
+        {
+          "questionnaire": {
+            "display": "comorb", 
+            "reference": "api/questionnaire/comorb"
+          }, 
+          "rank": 1
+        }, 
+        {
+          "questionnaire": {
+            "display": "epic26", 
+            "reference": "api/questionnaire/epic26"
+          }, 
+          "rank": 2
+        }
+      ]
+    }, 
+    {
+      "resourceType": "QuestionnaireBank", 
+      "name": "IRONMAN baseline", 
+      "organization": {
+        "reference": "api/organization/20000"
+      }, 
+      "classification": "baseline", 
+      "start": "{\"days\": 0}",
+      "overdue": "{\"days\": 1}", 
+      "expired": "{\"days\": 31}", 
+      "recurs": [], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "eortc", 
+            "reference": "api/questionnaire/eortc"
+          }, 
+          "rank": 0
+        }, 
+        {
+          "questionnaire": {
+            "display": "ironmisc", 
+            "reference": "api/questionnaire/ironmisc"
+          }, 
+          "rank": 1 
+        }, 
+        {
+          "questionnaire": {
+            "display": "factfpsi", 
+            "reference": "api/questionnaire/factfpsi"
+          }, 
+          "rank": 2 
+        }, 
+        {
+          "questionnaire": {
+            "display": "epic23", 
+            "reference": "api/questionnaire/epic23"
+          }, 
+          "rank": 3
+        }, 
+        {
+          "questionnaire": {
+            "display": "prems", 
+            "reference": "api/questionnaire/prems"
+          }, 
+          "rank": 4 
+        }
+      ]
+    }, 
+    {
+      "resourceType": "QuestionnaireBank", 
+      "name": "IRONMAN indefinite", 
+      "organization": {
+        "reference": "api/organization/20000"
+      }, 
+      "classification": "indefinite", 
+      "start": "{\"days\": 0}",
+      "expired": "{\"years\": 50}", 
+      "recurs": [], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "irondemog", 
+            "reference": "api/questionnaire/irondemog"
+          }, 
+          "rank": 0
+        }
+      ]
     },
     {
-        "resourceType": "QuestionnaireBank",
-        "name": "IRONMAN Questionnaire Bank",
-        "classification": "baseline",
-        "organization": {
-            "reference": "api/organization/20000"
-        },
-        "questionnaires": [
-            {
-                "rank": 1,
-                "questionnaire": {"reference": "api/questionnaire/eortc"},
-                "name": "eortc",
-                "days_till_due": 1,
-                "days_till_overdue": 30
-            },
-            {
-                "rank": 2,
-                "questionnaire": {"reference": "api/questionnaire/ironmisc"},
-                "name": "ironmisc",
-                "days_till_due": 1,
-                "days_till_overdue": 30
-            },
-            {
-                "rank": 3,
-                "questionnaire": {"reference": "api/questionnaire/factfpsi"},
-                "name": "factfpsi",
-                "days_till_due": 1,
-                "days_till_overdue": 30
-            },
-            {
-                "rank": 4,
-                "questionnaire": {"reference": "api/questionnaire/epic23"},
-                "name": "epic23",
-                "days_till_due": 1,
-                "days_till_overdue": 30
-            },
-            {
-                "rank": 5,
-                "questionnaire": {"reference": "api/questionnaire/prems"},
-                "name": "prems",
-                "days_till_due": 1,
-                "days_till_overdue": 30
-            }
-        ]
-    },
+      "resourceType": "QuestionnaireBank", 
+      "name": "IRONMAN recurring3", 
+      "organization": {
+        "reference": "api/organization/20000"
+      }, 
+      "classification": "recurring", 
+      "start": "{\"days\": 0}",
+      "overdue": "{\"days\": 30}", 
+      "expired": "{\"months\": 3}", 
+      "recurs": [
+        {
+          "cycle_length": "{\"months\": 6}", 
+          "start": "{\"months\": 3}", 
+          "termination": "{\"months\": 24}"
+        }
+      ], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "eortc", 
+            "reference": "api/questionnaire/eortc"
+          }, 
+          "rank": 0
+        }, 
+        {
+          "questionnaire": {
+            "display": "ironmisc", 
+            "reference": "api/questionnaire/ironmisc"
+          }, 
+          "rank": 1 
+        }
+      ]
+    }, 
     {
-        "resourceType": "QuestionnaireBank",
-        "name": "IRONMAN indefinite Questionnaire Bank",
-        "classification": "indefinite",
-        "organization": {
-            "reference": "api/organization/20000"
-        },
-        "questionnaires": [
-            {
-                "rank": 1,
-                "questionnaire": {"reference": "api/questionnaire/irondemog"},
-                "days_till_due": 1,
-                "days_till_overdue": 50000
-            }
-        ]
-    },
+      "resourceType": "QuestionnaireBank", 
+      "name": "IRONMAN recurring4", 
+      "organization": {
+        "reference": "api/organization/20000"
+      }, 
+      "classification": "recurring", 
+      "start": "{\"days\": 0}",
+      "overdue": "{\"days\": 30}", 
+      "expired": "{\"months\": 3}", 
+      "recurs": [
+        {
+          "cycle_length": "{\"years\": 1}", 
+          "start": "{\"months\": 6}", 
+          "termination": "{\"months\": 21}"
+        }, 
+        {
+          "cycle_length": "{\"years\": 1}", 
+          "start": "{\"months\": 30}", 
+          "termination": "{\"months\": 33}"
+        }
+      ], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "eortc", 
+            "reference": "api/questionnaire/eortc"
+          }, 
+          "rank": 0
+        }, 
+        {
+          "questionnaire": {
+            "display": "ironmisc", 
+            "reference": "api/questionnaire/ironmisc"
+          }, 
+          "rank": 1 
+        }, 
+        {
+          "questionnaire": {
+            "display": "factfpsi", 
+            "reference": "api/questionnaire/factfpsi"
+          }, 
+          "rank": 2 
+        }
+      ]
+    }, 
+    {
+      "resourceType": "QuestionnaireBank", 
+      "name": "IRONMAN recurring6", 
+      "organization": {
+        "reference": "api/organization/20000"
+      }, 
+      "classification": "recurring", 
+      "start": "{\"days\": 0}",
+      "overdue": "{\"days\": 30}", 
+      "expired": "{\"months\": 3}", 
+      "recurs": [
+        {
+          "cycle_length": "{\"years\": 1}", 
+          "start": "{\"years\": 1}", 
+          "termination": "{\"years\": 3, \"months\": 3}"
+        }
+      ], 
+      "questionnaires": [
+        {
+          "questionnaire": {
+            "display": "eortc", 
+            "reference": "api/questionnaire/eortc"
+          }, 
+          "rank": 0
+        }, 
+        {
+          "questionnaire": {
+            "display": "factfpsi", 
+            "reference": "api/questionnaire/factfpsi"
+          }, 
+          "rank": 1
+        }, 
+        {
+          "questionnaire": {
+            "display": "epic23", 
+            "reference": "api/questionnaire/epic23"
+          }, 
+          "rank": 2 
+        }, 
+        {
+          "questionnaire": {
+            "display": "ironmisc", 
+            "reference": "api/questionnaire/ironmisc"
+          }, 
+          "rank": 3 
+        }, 
+        {
+          "questionnaire": {
+            "display": "prems", 
+            "reference": "api/questionnaire/prems"
+          }, 
+          "rank": 4 
+        }
+      ]
+    }, 
     {
       "card_html": "set by access strategy depending on state", 
       "description": "", 
