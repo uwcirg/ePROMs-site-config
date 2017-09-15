@@ -897,6 +897,13 @@
       "task": "cache_assessment_status"
     },
     {
+      "resourceType": "ScheduledJob",
+      "schedule": "*/59 * * * *",
+      "name": "Update reporting stats cache",
+      "active": true,
+      "task": "cache_reporting_stats"
+    },
+    {
       "resourceType": "site.cfg", 
       "results": [
         "## SITE-PERSISTENCE Managed: File managed with site_persistence - don't edit.\n", 
