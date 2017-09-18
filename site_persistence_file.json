@@ -471,18 +471,18 @@
     },
     {
       "resourceType": "QuestionnaireBank", 
-      "name": "IRONMAN recurring3", 
+      "name": "IRONMAN_recurring2", 
       "organization": {
         "reference": "api/organization/20000"
       }, 
       "classification": "recurring", 
       "start": "{\"days\": 0}",
-      "overdue": "{\"days\": 30}", 
-      "expired": "{\"months\": 3}", 
+      "overdue": "{\"days\": 21}",
+      "expired": "{\"days\": 29}", 
       "recurs": [
         {
           "cycle_length": "{\"months\": 6}", 
-          "start": "{\"months\": 3}", 
+          "start": "{\"months\": 3, \"days\": -14}}", 
           "termination": "{\"months\": 24}"
         }
       ], 
@@ -505,7 +505,7 @@
     }, 
     {
       "resourceType": "QuestionnaireBank", 
-      "name": "IRONMAN recurring4", 
+      "name": "IRONMAN_recurring3", 
       "organization": {
         "reference": "api/organization/20000"
       }, 
@@ -551,7 +551,7 @@
     }, 
     {
       "resourceType": "QuestionnaireBank", 
-      "name": "IRONMAN recurring6", 
+      "name": "IRONMAN_recurring5", 
       "organization": {
         "reference": "api/organization/20000"
       }, 
