@@ -482,7 +482,7 @@
       "recurs": [
         {
           "cycle_length": "{\"months\": 6}", 
-          "start": "{\"months\": 3, \"days\": -14}}", 
+          "start": "{\"months\": 3, \"days\": -14}", 
           "termination": "{\"months\": 24}"
         }
       ], 
@@ -516,7 +516,7 @@
       "recurs": [
         {
           "cycle_length": "{\"years\": 1}", 
-          "start": "{\"months\": 6, \"days\": -14}}", 
+          "start": "{\"months\": 6, \"days\": -14}", 
           "termination": "{\"months\": 21}"
         }, 
         {
@@ -562,7 +562,7 @@
       "recurs": [
         {
           "cycle_length": "{\"years\": 1}", 
-          "start": "{\"years\": 1, \"days\": -14}}", 
+          "start": "{\"years\": 1, \"days\": -14}", 
           "termination": "{\"years\": 3, \"months\": 3}"
         }
       ], 
