@@ -891,14 +891,14 @@
     }, 
     {
       "resourceType": "ScheduledJob",
-      "schedule": "* * * * *",
+      "schedule": "*/9 * * * *",
       "name": "Update assessment status cache",
       "active": true,
       "task": "cache_assessment_status"
     },
     {
       "resourceType": "ScheduledJob",
-      "schedule": "*/59 * * * *",
+      "schedule": "*/39 * * * *",
       "name": "Update reporting stats cache",
       "active": true,
       "task": "cache_reporting_stats"
