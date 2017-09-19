@@ -471,18 +471,18 @@
     },
     {
       "resourceType": "QuestionnaireBank", 
-      "name": "IRONMAN recurring3", 
+      "name": "IRONMAN_recurring_3mo_pattern", 
       "organization": {
         "reference": "api/organization/20000"
       }, 
       "classification": "recurring", 
       "start": "{\"days\": 0}",
-      "overdue": "{\"days\": 30}", 
-      "expired": "{\"months\": 3}", 
+      "overdue": "{\"days\": 21}",
+      "expired": "{\"days\": 29}", 
       "recurs": [
         {
           "cycle_length": "{\"months\": 6}", 
-          "start": "{\"months\": 3}", 
+          "start": "{\"months\": 3, \"days\": -14}}", 
           "termination": "{\"months\": 24}"
         }
       ], 
@@ -505,18 +505,18 @@
     }, 
     {
       "resourceType": "QuestionnaireBank", 
-      "name": "IRONMAN recurring4", 
+      "name": "IRONMAN_recurring_6mo_pattern", 
       "organization": {
         "reference": "api/organization/20000"
       }, 
       "classification": "recurring", 
       "start": "{\"days\": 0}",
-      "overdue": "{\"days\": 30}", 
-      "expired": "{\"months\": 3}", 
+      "overdue": "{\"days\": 21}", 
+      "expired": "{\"months\": 29}", 
       "recurs": [
         {
           "cycle_length": "{\"years\": 1}", 
-          "start": "{\"months\": 6}", 
+          "start": "{\"months\": 6, \"days\": -14}}", 
           "termination": "{\"months\": 21}"
         }, 
         {
@@ -551,18 +551,18 @@
     }, 
     {
       "resourceType": "QuestionnaireBank", 
-      "name": "IRONMAN recurring6", 
+      "name": "IRONMAN_recurring_annual_pattern", 
       "organization": {
         "reference": "api/organization/20000"
       }, 
       "classification": "recurring", 
       "start": "{\"days\": 0}",
-      "overdue": "{\"days\": 30}", 
-      "expired": "{\"months\": 3}", 
+      "overdue": "{\"days\": 21}", 
+      "expired": "{\"months\": 29}", 
       "recurs": [
         {
           "cycle_length": "{\"years\": 1}", 
-          "start": "{\"years\": 1}", 
+          "start": "{\"years\": 1, \"days\": -14}}", 
           "termination": "{\"years\": 3, \"months\": 3}"
         }
       ], 
