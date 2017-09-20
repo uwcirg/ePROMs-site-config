@@ -729,7 +729,7 @@
                 "value": "IRONMAN Baseline | Final Reminder"
             }
         ],
-        "notify_post_qb_start": "{\"days\": 30}",
+        "notify_post_qb_start": "{\"month\": 1}",
         "questionnaire_bank": {
             "display": "IRONMAN_baseline",
             "reference": "api/questionnaire_bank/IRONMAN_baseline"
