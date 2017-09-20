@@ -658,6 +658,86 @@
       ]
     }, 
     {
+        "resourceType": "CommunicationRequest",
+        "identifier": [
+            {
+                "system": "http://us.truenth.org/identity-codes/communicationrequest/name",
+                "value": "IRONMAN Baseline | Day 1 Reminder"
+            }
+        ],
+        "notify_post_qb_start": "{\"days\": 1}",
+        "questionnaire_bank": {
+            "display": "IRONMAN_baseline",
+            "reference": "api/questionnaire_bank/IRONMAN_baseline"
+        },
+        "lr_uuid": "2c837970-71e3-d736-9d2f-626f417bbbad",
+        "status": "active"
+    },
+    {
+        "resourceType": "CommunicationRequest",
+        "identifier": [
+            {
+                "system": "http://us.truenth.org/identity-codes/communicationrequest/name",
+                "value": "IRONMAN Baseline | Week 1 Reminder"
+            }
+        ],
+        "notify_post_qb_start": "{\"weeks\": 1}",
+        "questionnaire_bank": {
+            "display": "IRONMAN_baseline",
+            "reference": "api/questionnaire_bank/IRONMAN_baseline"
+        },
+        "lr_uuid": "2c837970-71e3-d736-9d2f-626f417bbbad",
+        "status": "active"
+    },
+    {
+        "resourceType": "CommunicationRequest",
+        "identifier": [
+            {
+                "system": "http://us.truenth.org/identity-codes/communicationrequest/name",
+                "value": "IRONMAN Baseline | Week 2 Reminder"
+            }
+        ],
+        "notify_post_qb_start": "{\"weeks\": 2}",
+        "questionnaire_bank": {
+            "display": "IRONMAN_baseline",
+            "reference": "api/questionnaire_bank/IRONMAN_baseline"
+        },
+        "lr_uuid": "2c837970-71e3-d736-9d2f-626f417bbbad",
+        "status": "active"
+    },
+    {
+        "resourceType": "CommunicationRequest",
+        "identifier": [
+            {
+                "system": "http://us.truenth.org/identity-codes/communicationrequest/name",
+                "value": "IRONMAN Baseline | Week 3 Reminder"
+            }
+        ],
+        "notify_post_qb_start": "{\"weeks\": 3}",
+        "questionnaire_bank": {
+            "display": "IRONMAN_baseline",
+            "reference": "api/questionnaire_bank/IRONMAN_baseline"
+        },
+        "lr_uuid": "2c837970-71e3-d736-9d2f-626f417bbbad",
+        "status": "active"
+    },
+    {
+        "resourceType": "CommunicationRequest",
+        "identifier": [
+            {
+                "system": "http://us.truenth.org/identity-codes/communicationrequest/name",
+                "value": "IRONMAN Baseline | Final Reminder"
+            }
+        ],
+        "notify_post_qb_start": "{\"month\": 1}",
+        "questionnaire_bank": {
+            "display": "IRONMAN_baseline",
+            "reference": "api/questionnaire_bank/IRONMAN_baseline"
+        },
+        "lr_uuid": "d9514c96-4769-993f-f6e4-03a67d8f7424",
+        "status": "active"
+    },
+    {
       "resourceType": "QuestionnaireBank", 
       "name": "IRONMAN_indefinite", 
       "organization": {
