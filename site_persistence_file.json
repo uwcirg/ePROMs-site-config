@@ -1349,14 +1349,21 @@
     }, 
     {
       "resourceType": "ScheduledJob",
-      "schedule": "*/9 * * * *",
+      "schedule": "5 * * * *",
       "name": "Update assessment status cache",
       "active": true,
       "task": "cache_assessment_status"
     },
     {
       "resourceType": "ScheduledJob",
-      "schedule": "*/39 * * * *",
+      "schedule": "20 * * * *",
+      "name": "Prepare ready communications",
+      "active": true,
+      "task": "prepare_communications"
+    },
+    {
+      "resourceType": "ScheduledJob",
+      "schedule": "55 * * * *",
       "name": "Update reporting stats cache",
       "active": true,
       "task": "cache_reporting_stats"
