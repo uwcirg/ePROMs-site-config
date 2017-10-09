@@ -382,21 +382,21 @@
             "display": "eproms_add", 
             "reference": "api/questionnaire/eproms_add"
           }, 
-          "rank": 0
+          "rank": 1
         }, 
         {
           "questionnaire": {
             "display": "comorb", 
             "reference": "api/questionnaire/comorb"
           }, 
-          "rank": 1
+          "rank": 2
         }, 
         {
           "questionnaire": {
             "display": "epic26", 
             "reference": "api/questionnaire/epic26"
           }, 
-          "rank": 2
+          "rank": 0
         }
       ]
     }, 
