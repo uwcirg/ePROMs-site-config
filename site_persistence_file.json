@@ -189,18 +189,7 @@
       "address": [], 
       "id": 21110, 
       "identifier": [], 
-      "name": "AUA Child Site 1", 
-      "partOf": {
-        "reference": "api/organization/21100"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 21120, 
-      "identifier": [], 
-      "name": "AUA Child Site 2", 
+      "name": "Australian Urology Associates (AUA)", 
       "partOf": {
         "reference": "api/organization/21100"
       }, 
