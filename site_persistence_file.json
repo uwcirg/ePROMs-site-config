@@ -178,7 +178,7 @@
       "address": [], 
       "id": 21100, 
       "identifier": [], 
-      "name": "AUA Recruiting Site", 
+      "name": "Australian Urology Associates (AUA)", 
       "partOf": {
         "reference": "api/organization/21000"
       }, 
@@ -187,9 +187,20 @@
     }, 
     {
       "address": [], 
-      "id": 21110, 
+      "id": 21300, 
       "identifier": [], 
-      "name": "Australian Urology Associates (AUA)", 
+      "name": "Australian Prostate Cancer Research Centre – Queensland", 
+      "partOf": {
+        "reference": "api/organization/21100"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21400, 
+      "identifier": [], 
+      "name": "Eastern Health", 
       "partOf": {
         "reference": "api/organization/21100"
       }, 
@@ -1448,4 +1459,3 @@
   "resourceType": "Bundle", 
   "type": "document"
 }
-
