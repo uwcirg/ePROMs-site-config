@@ -222,7 +222,7 @@
       "address": [], 
       "id": 21300, 
       "identifier": [], 
-      "name": "Australian Prostate Cancer Research Centre – Queensland", 
+      "name": "Australian Prostate Cancer Research Centre - Queensland", 
       "partOf": {
         "reference": "api/organization/21000"
       }, 
