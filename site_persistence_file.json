@@ -178,31 +178,9 @@
       "address": [], 
       "id": 21100, 
       "identifier": [], 
-      "name": "AUA Recruiting Site", 
+      "name": "Australian Urology Associates (AUA)", 
       "partOf": {
         "reference": "api/organization/21000"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 21110, 
-      "identifier": [], 
-      "name": "AUA Child Site 1", 
-      "partOf": {
-        "reference": "api/organization/21100"
-      }, 
-      "resourceType": "Organization", 
-      "telecom": []
-    }, 
-    {
-      "address": [], 
-      "id": 21120, 
-      "identifier": [], 
-      "name": "AUA Child Site 2", 
-      "partOf": {
-        "reference": "api/organization/21100"
       }, 
       "resourceType": "Organization", 
       "telecom": []
@@ -236,6 +214,28 @@
       "name": "AU B Child Site 2", 
       "partOf": {
         "reference": "api/organization/21200"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21300, 
+      "identifier": [], 
+      "name": "Australian Prostate Cancer Research Centre - Queensland", 
+      "partOf": {
+        "reference": "api/organization/21000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 21400, 
+      "identifier": [], 
+      "name": "Eastern Health", 
+      "partOf": {
+        "reference": "api/organization/21000"
       }, 
       "resourceType": "Organization", 
       "telecom": []
@@ -783,6 +783,7 @@
       }, 
       "classification": "recurring", 
       "start": "{\"days\": 0}",
+      "due": "{\"days\": 14}",
       "overdue": "{\"days\": 21}",
       "expired": "{\"days\": 29}", 
       "recurs": [
@@ -907,7 +908,8 @@
       }, 
       "classification": "recurring", 
       "start": "{\"days\": 0}",
-      "overdue": "{\"days\": 21}", 
+      "due": "{\"days\": 14}",
+      "overdue": "{\"days\": 21}",
       "expired": "{\"months\": 29}", 
       "recurs": [
         {
@@ -1043,7 +1045,8 @@
       }, 
       "classification": "recurring", 
       "start": "{\"days\": 0}",
-      "overdue": "{\"days\": 21}", 
+      "due": "{\"days\": 14}",
+      "overdue": "{\"days\": 21}",
       "expired": "{\"months\": 29}", 
       "recurs": [
         {
@@ -1459,4 +1462,3 @@
   "resourceType": "Bundle", 
   "type": "document"
 }
-
