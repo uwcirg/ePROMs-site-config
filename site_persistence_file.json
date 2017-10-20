@@ -287,6 +287,96 @@
     }, 
     {
       "address": [], 
+      "id": 22300, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://pcctc.org/", 
+          "use": "secondary", 
+          "value": "146-99"
+        }
+	  ], 
+      "name": "Thomas Jefferson University",
+      "partOf": {
+        "reference": "api/organization/22000"
+      }, 
+      "resourceType": "Organization", 
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22310, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://pcctc.org/", 
+          "use": "secondary", 
+          "value": "146-29"
+        }
+	  ], 
+      "name": "Aria Health",
+      "partOf": {
+        "reference": "api/organization/22300"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22320, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://pcctc.org/", 
+          "use": "secondary", 
+          "value": "146-30"
+        }
+	  ], 
+      "name": "Doylestown Health",
+      "partOf": {
+        "reference": "api/organization/22300"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22330, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://pcctc.org/", 
+          "use": "secondary", 
+          "value": "146-31"
+        }
+	  ], 
+      "name": "Easton Hospital",
+      "partOf": {
+        "reference": "api/organization/22300"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22340, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://pcctc.org/", 
+          "use": "secondary", 
+          "value": "146-32"
+        }
+	  ], 
+      "name": "Reading Health System",
+      "partOf": {
+        "reference": "api/organization/22300"
+      },
+      "resourceType": "Organization",
+      "telecom": []
+    }, 
+    {
+      "address": [], 
       "id": 22200, 
       "identifier": [], 
       "name": "UNC Medical Center",
