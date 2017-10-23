@@ -363,7 +363,7 @@
 	  ], 
       "name": "Thomas Jefferson University",
       "partOf": {
-        "reference": "api/organization/23000"
+        "reference": "api/organization/22300"
       }, 
       "resourceType": "Organization", 
       "telecom": []
