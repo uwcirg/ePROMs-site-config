@@ -288,14 +288,7 @@
     {
       "address": [], 
       "id": 22300, 
-      "identifier": [
-        {
-          "assigner": null, 
-          "system": "http://pcctc.org/", 
-          "use": "secondary", 
-          "value": "146-99"
-        }
-	  ], 
+      "identifier": [], 
       "name": "Thomas Jefferson University",
       "partOf": {
         "reference": "api/organization/22000"
@@ -355,6 +348,24 @@
         "reference": "api/organization/22300"
       },
       "resourceType": "Organization",
+      "telecom": []
+    }, 
+    {
+      "address": [], 
+      "id": 22340, 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://pcctc.org/", 
+          "use": "secondary", 
+          "value": "146-99"
+        }
+	  ], 
+      "name": "Thomas Jefferson University",
+      "partOf": {
+        "reference": "api/organization/22300"
+      }, 
+      "resourceType": "Organization", 
       "telecom": []
     }, 
     {
