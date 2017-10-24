@@ -1425,7 +1425,7 @@
         "MAIL_SENDER_DEFAULT = 'noreply@eproms.truenth.org'\n",
         "CONTACT_SENDTO_EMAIL = 'contact.eproms@truenth.org'\n",
         "PATIENT_LIST_ADDL_FIELDS = ['status','study_id']\n",
-        "PORTAL_STYLESHEET = 'css/eproms.css'\n", 
+        "PORTAL_STYLESHEET = '/eproms/static/css/eproms.css'\n",
         "STAFF_BULK_DATA_ACCESS = True\n",
         "SMARTLING_PROJECT_ID = 'dd112801a'\n",
         "REQUIRED_CORE_DATA = ['org', 'website_terms_of_use', 'subject_website_consent', 'stored_website_consent_form', 'privacy_policy', 'race', 'ethnicity']\n", 
