@@ -1250,6 +1250,21 @@
       "resourceType": "AppText"
     },
     {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=d4bb3797-f5e3-eb48-87dc-e92c03a1a0f3",
+      "name": "site summary email CRV",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=161e7769-dbe0-a3e4-104f-9fc39213ea04",
+      "name": "site summary email IRONMAN",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=161e7769-dbe0-a3e4-104f-9fc39213ea04",
+      "name": "site summary email",
+      "resourceType": "AppText"
+    },
+    {
       "custom_text": "Report your health on TrueNTH. Email from (clinic name)", 
       "name": "profileSendEmail reminder email_subject", 
       "resourceType": "AppText"
@@ -1416,6 +1431,22 @@
       "name": "Update reporting stats cache",
       "active": true,
       "task": "cache_reporting_stats"
+    },
+    {
+      "resourceType": "ScheduledJob",
+      "schedule": "0 20 * * 0",
+      "name": "IRONMAN site summary email",
+      "active": true,
+      "task": "send_questionnaire_summary",
+      "kwargs": {"cutoff_days":"7,14,21,30","org":"IRONMAN"}
+    },
+    {
+      "resourceType": "ScheduledJob",
+      "schedule": "0 21 * * 0",
+      "name": "CRV site summary email",
+      "active": true,
+      "task": "send_questionnaire_summary",
+      "kwargs": {"cutoff_days":"30,60,90","org":"CRV"}
     },
     {
       "resourceType": "site.cfg", 
