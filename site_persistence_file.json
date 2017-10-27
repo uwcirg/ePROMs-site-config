@@ -45,7 +45,7 @@
       "address": [], 
       "id": 11100, 
       "identifier": [], 
-      "name": "AUA Site 1", 
+      "name": "Australian Urology Associates (AUA)", 
       "partOf": {
         "reference": "api/organization/11000"
       }, 
