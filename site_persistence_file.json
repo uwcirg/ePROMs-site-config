@@ -25,9 +25,12 @@
           "value": "crv"
         }
       ], 
-      "name": "CRV", 
+      "name": "TrueNTH Global Registry",
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [{
+        "system": "email",
+        "value": "contact.eproms@truenth.org"
+       }]
     }, 
     {
       "address": [], 
@@ -160,7 +163,10 @@
       ], 
       "name": "IRONMAN", 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [{
+        "system": "email",
+        "value": "pcctcironmanregistry@mskcc.org"
+       }]
     }, 
     {
       "address": [], 
@@ -1290,17 +1296,17 @@
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "Movember ePROMs", 
+      "custom_text": "Movember TrueNTH",
       "name": "layout title", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "TrueNTH EPROMs Registration", 
+      "custom_text": "TrueNTH Registration",
       "name": "portal registration", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "Register for TrueNTH ePROMs",
+      "custom_text": "Register for TrueNTH",
       "name": "registration title",
       "resourceType": "AppText"
     },
@@ -1310,17 +1316,17 @@
       "resourceType": "AppText"
     },
     {
-      "custom_text": "ePROMs Invite", 
+      "custom_text": "TrueNTH Invite",
       "name": "profileSendEmail option invite", 
       "resourceType": "AppText"
     }, 
     {
-      "custom_text": "ePROMs Reminder", 
+      "custom_text": "TrueNTH Reminder",
       "name": "profileSendEmail option reminder", 
       "resourceType": "AppText"
     },
     {
-      "custom_text": "<p>(greeting),</p><p>This email was sent to you because you are a patient at (clinic name) and consented to participate in the Prostate Cancer Outcomes - (parent org) Registry Study.</p><p>This is an invitation to use the TrueNTH ePROMs website, where you will report on your health. Your participation will help us collectively improve the care that men receive during their prostate cancer journey.</p><p>To complete your first questionnaire, please first verify your account.</p><div><a class=\"btn\" href=\"{0}\">Verify your account</a></div><p>You can also access the TrueNTH ePROMs website with this link:<p/><p><a href=\"{0}\">{0}</a></p><p>Save this email so that you can return to TrueNTH ePROMs any time.</p><p>If you have any queries, please contact your representative at (clinic name).</p>",
+      "custom_text": "<p>(greeting),</p><p>This email was sent to you because you are a patient at (clinic name) and consented to participate in the Prostate Cancer Outcomes - (parent org) Registry Study.</p><p>This is an invitation to use the TrueNTH website, where you will report on your health. Your participation will help us collectively improve the care that men receive during their prostate cancer journey.</p><p>To complete your first questionnaire, please first verify your account.</p><div><a class=\"btn\" href=\"{0}\">Verify your account</a></div><p>You can also access the TrueNTH website with this link:<p/><p><a href=\"{0}\">{0}</a></p><p>Save this email so that you can return to TrueNTH any time.</p><p>If you have any queries, please contact your representative at (clinic name).</p>",
       "name": "profileSendEmail invite email_body",
       "resourceType": "AppText"
     },
@@ -1331,7 +1337,7 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=9d2bc012-aca4-975b-6f3c-1c6ddfb66c82",
-      "name": "profileSendEmail invite email CRV",
+      "name": "profileSendEmail invite email TrueNTH Global Registry",
       "resourceType": "AppText"
     },
     {
@@ -1342,6 +1348,21 @@
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=9d2bc012-aca4-975b-6f3c-1c6ddfb66c82",
       "name": "profileSendEmail invite email",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=d4bb3797-f5e3-eb48-87dc-e92c03a1a0f3",
+      "name": "site summary email TrueNTH Global Registry",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=161e7769-dbe0-a3e4-104f-9fc39213ea04",
+      "name": "site summary email IRONMAN",
+      "resourceType": "AppText"
+    },
+    {
+      "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=161e7769-dbe0-a3e4-104f-9fc39213ea04",
+      "name": "site summary email",
       "resourceType": "AppText"
     },
     {
@@ -1366,7 +1387,7 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=f344d0ea-48c5-8889-fe2e-d42d599df796&editorUrl=true",
-      "name": "CRV website declaration form URL",
+      "name": "TrueNTH Global Registry website declaration form URL",
       "resourceType": "AppText"
     },
     {
@@ -1376,17 +1397,17 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=106e46a0-86e8-d61c-7173-1df271180503&editorUrl=true",
-      "name": "CRV organization website consent URL",
+      "name": "TrueNTH Global Registry organization website consent URL",
       "resourceType": "AppText"
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=106e46a0-86e8-d61c-7173-1df271180503&editorUrl=true",
-      "name": "CRV patient website consent URL",
+      "name": "TrueNTH Global Registry patient website consent URL",
       "resourceType": "AppText"
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=d7316b23-b563-0c36-76e4-a3ddd0ea3e81&editorUrl=true",
-      "name": "CRV staff website consent URL",
+      "name": "TrueNTH Global Registry staff website consent URL",
       "resourceType": "AppText"
     },
     {
@@ -1396,7 +1417,7 @@
     }, 
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=d3a28016-656a-36c1-0201-fa1571c42b32&editorUrl=true",
-      "name": "CRV organization consent URL", 
+      "name": "TrueNTH Global Registry organization consent URL", 
       "resourceType": "AppText"
     }, 
     {
@@ -1411,7 +1432,7 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=958a83c7-3e3f-d147-ee38-2980dafb1396&editorUrl=true",    
-      "name": "CRV patient terms and conditions URL",
+      "name": "TrueNTH Global Registry patient terms and conditions URL",
       "resourceType": "AppText"
     },
     {
@@ -1421,7 +1442,7 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=97ea8305-6786-41b6-99c3-14fd40bbc826&editorUrl=true",    
-      "name": "CRV staff terms and conditions URL",
+      "name": "TrueNTH Global Registry staff terms and conditions URL",
       "resourceType": "AppText"
     },
     {
@@ -1446,7 +1467,7 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=17a469bc-87ac-a887-7ac6-61ed816ec772&editorUrl=true",
-      "name": "CRV patient privacy URL",
+      "name": "TrueNTH Global Registry patient privacy URL",
       "resourceType": "AppText"
     },
     {
@@ -1456,7 +1477,7 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/detailed?version=latest&uuid=f8e89b22-7c95-2a15-08a4-169ac8db9311&editorUrl=true",
-      "name": "CRV staff privacy URL",
+      "name": "TrueNTH Global Registry staff privacy URL",
       "resourceType": "AppText"
     },
     {
@@ -1466,7 +1487,7 @@
     },
     {
       "custom_text": "{config[LR_ORIGIN]}/c/portal/truenth/asset/mail?version=latest&uuid=22d28841-2e07-ff91-8358-2658a576bc44&editorUrl=true",
-      "name": "CRV staff registraion email URL",
+      "name": "TrueNTH Global Registry staff registraion email URL",
       "resourceType": "AppText"
     },
     {
@@ -1513,6 +1534,22 @@
       "task": "cache_reporting_stats"
     },
     {
+      "resourceType": "ScheduledJob",
+      "schedule": "0 20 * * 0",
+      "name": "IRONMAN site summary email",
+      "active": true,
+      "task": "send_questionnaire_summary",
+      "kwargs": {"cutoff_days":"7,14,21,30","org_id":20000}
+    },
+    {
+      "resourceType": "ScheduledJob",
+      "schedule": "0 21 * * 0",
+      "name": "TNGR site summary email",
+      "active": true,
+      "task": "send_questionnaire_summary",
+      "kwargs": {"cutoff_days":"30,60,90","org_id":10000}
+    },
+    {
       "resourceType": "site.cfg", 
       "results": [
         "## SITE-PERSISTENCE Managed: File managed with site_persistence - don't edit.\n", 
@@ -1520,7 +1557,7 @@
         "MAIL_SENDER_DEFAULT = 'noreply@eproms.truenth.org'\n",
         "CONTACT_SENDTO_EMAIL = 'contact.eproms@truenth.org'\n",
         "PATIENT_LIST_ADDL_FIELDS = ['status','study_id']\n",
-        "PORTAL_STYLESHEET = 'css/eproms.css'\n", 
+        "PORTAL_STYLESHEET = '/eproms/static/css/eproms.css'\n",
         "STAFF_BULK_DATA_ACCESS = True\n",
         "SMARTLING_PROJECT_ID = 'dd112801a'\n",
         "REQUIRED_CORE_DATA = ['org', 'website_terms_of_use', 'subject_website_consent', 'stored_website_consent_form', 'privacy_policy', 'race', 'ethnicity']\n", 
@@ -1531,7 +1568,7 @@
         "USER_PASSWORD_CHANGED_EMAIL_TEMPLATE = 'flask_user/emails/eproms_password_changed'\n",
         "CONSENT_EDIT_PERMISSIBLE_ROLES = ['staff', 'admin']\n",
         "CUSTOM_PATIENT_DETAIL = True\n",
-        "LOCALIZED_AFFILIATE_ORG = 'CRV'\n",
+        "LOCALIZED_AFFILIATE_ORG = 'TrueNTH Global Registry'\n",
         "SHOW_WELCOME = False\n",
         "HIDE_TRUENTH_ID_FIELD = True\n",
         "TRUENTH_LINK_URL = False\n",
