@@ -42,7 +42,13 @@
       }, 
       "resourceType": "Organization", 
       "telecom": [],
-      "language": "en_AU"
+      "language": "en_AU",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Melbourne"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -65,7 +71,13 @@
       }, 
       "resourceType": "Organization", 
       "telecom": [],
-      "language": "en_AU"
+      "language": "en_AU",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Brisbane"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -189,7 +201,13 @@
         "reference": "api/organization/21000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Melbourne"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -233,7 +251,13 @@
         "reference": "api/organization/21000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Brisbane"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -244,7 +268,13 @@
         "reference": "api/organization/21000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Melbourne"
+        }
+      ]	
     }, 
     {
       "address": [], 
