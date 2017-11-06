@@ -42,7 +42,13 @@
       }, 
       "resourceType": "Organization", 
       "telecom": [],
-      "language": "en_AU"
+      "language": "en_AU",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Melbourne"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -65,7 +71,13 @@
       }, 
       "resourceType": "Organization", 
       "telecom": [],
-      "language": "en_AU"
+      "language": "en_AU",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Brisbane"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -183,13 +195,26 @@
     {
       "address": [], 
       "id": 21100, 
-      "identifier": [], 
+      "identifier": [
+        {
+          "assigner": null, 
+          "system": "http://pcctc.org/", 
+          "use": "secondary", 
+          "value": "146-34"
+        }
+	  ], 
       "name": "Australian Urology Associates (AUA)", 
       "partOf": {
         "reference": "api/organization/21000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Melbourne"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -233,7 +258,13 @@
         "reference": "api/organization/21000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Brisbane"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -244,7 +275,13 @@
         "reference": "api/organization/21000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [],
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "Australia/Melbourne"
+        }
+      ]	
     }, 
     {
       "address": [], 
