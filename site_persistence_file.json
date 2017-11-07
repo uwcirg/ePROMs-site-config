@@ -304,7 +304,13 @@
         "reference": "api/organization/22000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [], 
+      "extension": [ 
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "America/New_York"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -337,7 +343,13 @@
         "reference": "api/organization/22000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [], 
+      "extension": [ 
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "America/New_York"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -438,7 +450,13 @@
         "reference": "api/organization/22000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [], 
+      "extension": [ 
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "America/New_York"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -489,7 +507,13 @@
         "reference": "api/organization/22000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [], 
+      "extension": [ 
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "America/New_York"
+        }
+      ]	
     }, 
     {
       "address": [], 
@@ -507,7 +531,13 @@
         "reference": "api/organization/22000"
       }, 
       "resourceType": "Organization", 
-      "telecom": []
+      "telecom": [], 
+      "extension": [ 
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/user-timezone",
+          "timezone": "America/New_York"
+        }
+      ]	
     }, 
     {
         "resourceType": "Questionnaire",
