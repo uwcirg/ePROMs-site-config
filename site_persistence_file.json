@@ -30,7 +30,13 @@
       "telecom": [{
         "system": "email",
         "value": "contact.eproms@truenth.org"
-       }]
+       }],
+      "extension": [
+        {
+          "url": "http://us.truenth.org/identity-codes/research-protocol",
+          "research_protocol": "TNGR v1"
+        }
+      ]
     }, 
     {
       "address": [], 
@@ -178,7 +184,13 @@
       "telecom": [{
         "system": "email",
         "value": "pcctcironmanregistry@mskcc.org"
-       }]
+       }],
+      "extension": [
+        {
+          "url": "http://us.truenth.org/identity-codes/research-protocol",
+          "research_protocol": "IRONMAN v2"
+        }
+      ]
     }, 
     {
       "address": [], 
@@ -578,8 +590,8 @@
     {
       "resourceType": "QuestionnaireBank", 
       "name": "CRV_baseline", 
-      "organization": {
-        "reference": "api/organization/10000"
+      "research_protocol": {
+        "reference": "api/research_protocol/TNGR v1"
       }, 
       "classification": "baseline", 
       "start": "{\"days\": 0}",
@@ -834,8 +846,8 @@
     {
       "resourceType": "QuestionnaireBank", 
       "name": "IRONMAN_baseline", 
-      "organization": {
-        "reference": "api/organization/20000"
+      "research_protocol": {
+        "reference": "api/research_protocol/IRONMAN v2"
       }, 
       "classification": "baseline", 
       "start": "{\"days\": 0}",
@@ -968,9 +980,9 @@
     {
       "resourceType": "QuestionnaireBank", 
       "name": "IRONMAN_indefinite", 
-      "organization": {
-        "reference": "api/organization/20000"
-      }, 
+      "research_protocol": {
+        "reference": "api/research_protocol/IRONMAN v2"
+      },
       "classification": "indefinite", 
       "start": "{\"days\": 0}",
       "expired": "{\"years\": 50}", 
@@ -988,9 +1000,9 @@
     {
       "resourceType": "QuestionnaireBank", 
       "name": "IRONMAN_recurring_3mo_pattern", 
-      "organization": {
-        "reference": "api/organization/20000"
-      }, 
+      "research_protocol": {
+        "reference": "api/research_protocol/IRONMAN v2"
+      },
       "classification": "recurring", 
       "start": "{\"days\": 0}",
       "due": "{\"days\": 14}",
@@ -1113,9 +1125,9 @@
     {
       "resourceType": "QuestionnaireBank", 
       "name": "IRONMAN_recurring_6mo_pattern", 
-      "organization": {
-        "reference": "api/organization/20000"
-      }, 
+      "research_protocol": {
+        "reference": "api/research_protocol/IRONMAN v2"
+      },
       "classification": "recurring", 
       "start": "{\"days\": 0}",
       "due": "{\"days\": 14}",
@@ -1250,9 +1262,9 @@
     {
       "resourceType": "QuestionnaireBank", 
       "name": "IRONMAN_recurring_annual_pattern", 
-      "organization": {
-        "reference": "api/organization/20000"
-      }, 
+      "research_protocol": {
+        "reference": "api/research_protocol/IRONMAN v2"
+      },
       "classification": "recurring", 
       "start": "{\"days\": 0}",
       "due": "{\"days\": 14}",
@@ -1302,7 +1314,15 @@
           "rank": 4 
         }
       ]
-    }, 
+    },
+    {
+        "resourceType": "ResearchProtocol",
+        "name": "IRONMAN v2"
+    },
+    {
+        "resourceType": "ResearchProtocol",
+        "name": "TNGR v1"
+    },
     {
       "card_html": "set by access strategy depending on state", 
       "description": "", 
